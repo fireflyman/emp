@@ -995,3 +995,315 @@ Migrating to CreatePublishers (2)
 [0m
   [4;35;1mSQL (0.000000)[0m   [0mPRAGMA index_list(authors)[0m
   [4;36;1mSQL (0.000000)[0m   [0;1mPRAGMA index_list(publishers)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT * FROM schema_info[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000000)[0m   [0mPRAGMA index_list(authors)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT * FROM schema_info[0m
+  [4;36;1mSQL (0.015000)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000000)[0m   [0mPRAGMA index_list(authors)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.047000)[0m   [0mCREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.188000)[0m   [0;1mINSERT INTO schema_info (version) VALUES(0)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+Migrating to CreateAuthors (1)
+  [4;35;1mSQL (0.078000)[0m   [0mCREATE TABLE authors ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255) DEFAULT NULL, "last_name" varchar(255) DEFAULT NULL) [0m
+  [4;36;1mSQL (0.078000)[0m   [0;1mUPDATE schema_info SET version = 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+Migrating to CreatePublishers (2)
+  [4;36;1mSQL (0.078000)[0m   [0;1mCREATE TABLE publishers ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) NOT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+  [4;35;1mSQL (0.094000)[0m   [0mUPDATE schema_info SET version = 2[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT * FROM schema_info[0m
+  [4;35;1mSQL (0.016000)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mPRAGMA index_list(authors)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mPRAGMA index_list(publishers)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT * FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mPRAGMA index_list(authors)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mPRAGMA index_list(publishers)[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: authors: DROP TABLE authors[0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mCREATE TABLE authors ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255) DEFAULT NULL, "last_name" varchar(255) DEFAULT NULL) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: no such table: publishers: DROP TABLE publishers[0m
+  [4;36;1mSQL (0.094000)[0m   [0;1mCREATE TABLE publishers ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) NOT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+  [4;35;1mSQL (0.093000)[0m   [0mCREATE TABLE schema_info (version integer)[0m
+  [4;36;1mSQL (0.094000)[0m   [0;1mINSERT INTO schema_info (version) VALUES(0)[0m
+  [4;35;1mSQL (0.078000)[0m   [0mUPDATE schema_info SET version = 2[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-25 16:43:05) [GET]
+  Session ID: c995bb732b12e79ed7de468bb2e4dea1
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/products" with {:method=>:get}):
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 16:43:12) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/publishers
+Rendering publishers/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#new (for 127.0.0.1 at 2010-03-25 16:43:14) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"new", "controller"=>"publishers"}
+Rendering template within layouts/publishers
+Rendering publishers/new
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/new]
+
+
+Processing PublishersController#create (for 127.0.0.1 at 2010-03-25 16:43:19) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"939f4b8caf2a492f4f7b552a521c36e4d2517bba", "action"=>"create", "publisher"=>{"name"=>"Apress"}, "controller"=>"publishers"}
+  [4;35;1mPublisher Create (0.000000)[0m   [0mINSERT INTO publishers ("name", "updated_at", "created_at") VALUES('Apress', '2010-03-25 16:43:19', '2010-03-25 16:43:19')[0m
+Redirected to http://localhost:3000/publishers/1
+Completed in 0.12500 (8 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/publishers]
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 16:43:19) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiKFB1Ymxpc2hlciB3YXMgc3VjY2Vzc2Z1bGx5IGNy%0AZWF0ZWQuBjoKQHVzZWR7BjsGVDoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMy%0AZDI5ZmFlMzVmNWQzNzBjZWE%3D--5696cea929e1da95a6f717d23b44c27f4941dd9b
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Rendering template within layouts/publishers
+Rendering publishers/show
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.01600 (12%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/1]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 16:44:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03200 (68%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#destroy (for 127.0.0.1 at 2010-03-25 16:44:13) [DELETE]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"authenticity_token"=>"939f4b8caf2a492f4f7b552a521c36e4d2517bba", "_method"=>"delete", "action"=>"destroy", "id"=>"1", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Destroy (0.000000)[0m   [0m DELETE FROM publishers
+ WHERE "id" = 1
+[0m
+Redirected to http://localhost:3000/publishers
+Completed in 0.11000 (9 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/publishers/1]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 16:44:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#new (for 127.0.0.1 at 2010-03-25 16:44:15) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"new", "controller"=>"publishers"}
+Rendering template within layouts/application
+Rendering publishers/new
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/new]
+
+
+Processing PublishersController#create (for 127.0.0.1 at 2010-03-25 16:44:18) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"939f4b8caf2a492f4f7b552a521c36e4d2517bba", "action"=>"create", "publisher"=>{"name"=>"Apress"}, "controller"=>"publishers"}
+  [4;35;1mPublisher Create (0.000000)[0m   [0mINSERT INTO publishers ("name", "updated_at", "created_at") VALUES('Apress', '2010-03-25 16:44:18', '2010-03-25 16:44:18')[0m
+Redirected to http://localhost:3000/publishers/2
+Completed in 0.12500 (8 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/publishers]
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 16:44:18) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiKFB1Ymxpc2hlciB3YXMgc3VjY2Vzc2Z1bGx5IGNy%0AZWF0ZWQuBjoKQHVzZWR7BjsGVDoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMy%0AZDI5ZmFlMzVmNWQzNzBjZWE%3D--5696cea929e1da95a6f717d23b44c27f4941dd9b
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 2) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/2]
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 17:07:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 2) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/2]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 17:07:13) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#new (for 127.0.0.1 at 2010-03-25 17:07:16) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"new", "controller"=>"publishers"}
+Rendering template within layouts/application
+Rendering publishers/new
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/new]
+
+
+Processing PublishersController#create (for 127.0.0.1 at 2010-03-25 17:07:18) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"939f4b8caf2a492f4f7b552a521c36e4d2517bba", "action"=>"create", "publisher"=>{"name"=>""}, "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers.name = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering publishers/new
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#create (for 127.0.0.1 at 2010-03-25 17:16:44) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"939f4b8caf2a492f4f7b552a521c36e4d2517bba", "action"=>"create", "publisher"=>{"name"=>""}, "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers.name = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering publishers/new
+Completed in 0.04600 (21 reqs/sec) | Rendering: 0.01500 (32%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:21:47) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03100 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#new (for 127.0.0.1 at 2010-03-25 18:21:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"new", "controller"=>"publishers"}
+Rendering template within layouts/application
+Rendering publishers/new
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/new]
+
+
+Processing PublishersController#create (for 127.0.0.1 at 2010-03-25 18:21:52) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"939f4b8caf2a492f4f7b552a521c36e4d2517bba", "action"=>"create", "publisher"=>{"name"=>"Po"}, "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers.name = 'Po') LIMIT 1[0m
+  [4;36;1mPublisher Create (0.016000)[0m   [0;1mINSERT INTO publishers ("name", "updated_at", "created_at") VALUES('Po', '2010-03-25 18:21:52', '2010-03-25 18:21:52')[0m
+Redirected to http://localhost:3000/publishers/3
+Completed in 0.14100 (7 reqs/sec) | DB: 0.01600 (11%) | 302 Found [http://localhost/publishers]
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 18:21:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIihQdWJsaXNoZXIgd2FzIHN1Y2Nlc3NmdWxseSBjcmVh%0AdGVkLgY6CkB1c2VkewY7B1Q%3D--89fb3b11d9319258068721f625b72dbb9f28f751
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.016000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 3) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01500 (31%) | DB: 0.01600 (34%) | 200 OK [http://localhost/publishers/3]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:21:54) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03100 (65%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#edit (for 127.0.0.1 at 2010-03-25 18:22:16) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"edit", "id"=>"3", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 3) [0m
+Rendering template within layouts/application
+Rendering publishers/edit
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/3/edit]
+
+
+Processing PublishersController#update (for 127.0.0.1 at 2010-03-25 18:22:24) [PUT]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"939f4b8caf2a492f4f7b552a521c36e4d2517bba", "_method"=>"put", "action"=>"update", "id"=>"3", "publisher"=>{"name"=>"Post"}, "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 3) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers.name = 'Post' AND publishers.id <> 3) LIMIT 1[0m
+  [4;36;1mPublisher Update (0.000000)[0m   [0;1mUPDATE publishers SET "created_at" = '2010-03-25 18:21:52', "name" = 'Post', "updated_at" = '2010-03-25 18:22:24' WHERE "id" = 3[0m
+Redirected to http://localhost:3000/publishers/3
+Completed in 0.14100 (7 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/publishers/3]
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 18:22:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIihQdWJsaXNoZXIgd2FzIHN1Y2Nlc3NmdWxseSB1cGRh%0AdGVkLgY6CkB1c2VkewY7B1Q%3D--bee20a63f1f5f6ed391f070a46259343cc6d50bc
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 3) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/3]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:22:26) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.15600 (6 reqs/sec) | Rendering: 0.01500 (9%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]

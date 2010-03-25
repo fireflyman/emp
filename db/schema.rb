@@ -17,7 +17,9 @@ ActiveRecord::Schema.define(:version => 2) do
   end
 
   create_table "publishers", :force => true do |t|
-    t.string "name", :null => false
+    t.string   "name",       :null => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

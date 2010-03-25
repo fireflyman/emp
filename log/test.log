@@ -3530,3 +3530,1067 @@ Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 17:59:33) [POST]
 Redirected to http://test.host/author/show/1
 Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
   [4;35;1mAuthor Load (0.015000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;36;1mAuthor Create (0.000000)[0m   [0;1mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-25 16:40:54) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01500)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.04700 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-25 16:40:54) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.04700 (46999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-25 16:40:54) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Destroy (0.000000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-25 16:40:54) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/destroy/1]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-25 16:40:54) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-25 16:40:54) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-25 16:40:54) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.01600)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-25 16:40:54) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-25 16:40:54) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-25 16:40:54) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;36;1mAuthor Update (0.000000)[0m   [0;1mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 953125641) [0m
+
+
+Processing PublishersController#edit (for 0.0.0.0 at 2010-03-25 16:40:54) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.016000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 953125641) [0m
+Rendering template within layouts/publishers
+Rendering publishers/edit
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.01600 (51%) | 200 OK [http://test.host/publishers/953125641/edit]
+
+
+Processing PublishersController#index (for 0.0.0.0 at 2010-03-25 16:40:54) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/publishers
+Rendering publishers/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/publishers]
+
+
+Processing PublishersController#new (for 0.0.0.0 at 2010-03-25 16:40:54) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"publishers"}
+Rendering template within layouts/publishers
+Rendering publishers/new
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/publishers/new]
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 953125641) [0m
+
+
+Processing PublishersController#show (for 0.0.0.0 at 2010-03-25 16:40:54) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 953125641) [0m
+Rendering template within layouts/publishers
+Rendering publishers/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/publishers/953125641]
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 953125641) [0m
+
+
+Processing PublishersController#update (for 0.0.0.0 at 2010-03-25 16:40:54) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"953125641", "controller"=>"publishers", "publisher"=>{}}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 953125641) [0m
+  [4;35;1mPublisher Update (0.000000)[0m   [0mUPDATE publishers SET "created_at" = '2010-03-25 16:40:54', "name" = 'MyString', "updated_at" = '2010-03-25 16:40:54' WHERE "id" = 953125641[0m
+Redirected to http://test.host/publishers/953125641
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/publishers/953125641?]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM publishers [0m
+
+
+Processing PublishersController#create (for 0.0.0.0 at 2010-03-25 16:58:48) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "publisher"=>{"name"=>"The Monopoly Publishing Company"}, "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers.name = 'The Monopoly Publishing Company') LIMIT 1[0m
+  [4;36;1mPublisher Create (0.000000)[0m   [0;1mINSERT INTO publishers ("name", "updated_at", "created_at") VALUES('The Monopoly Publishing Company', '2010-03-25 16:58:48', '2010-03-25 16:58:48')[0m
+Redirected to http://test.host/publishers/996332878
+Completed in 0.01500 (66 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/publishers?publisher%5Bname%5D=The+Monopoly+Publishing+Company]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM publishers [0m
+
+
+Processing PublishersController#create (for 0.0.0.0 at 2010-03-25 17:00:53) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "publisher"=>{"name"=>"The Monopoly Publishing Company"}, "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.016000)[0m   [0mSELECT * FROM publishers WHERE (publishers.name = 'The Monopoly Publishing Company') LIMIT 1[0m
+  [4;36;1mPublisher Create (0.000000)[0m   [0;1mINSERT INTO publishers ("name", "updated_at", "created_at") VALUES('The Monopoly Publishing Company', '2010-03-25 17:00:53', '2010-03-25 17:00:53')[0m
+Redirected to http://test.host/publishers/996332878
+Completed in 0.01600 (62 reqs/sec) | DB: 0.01600 (100%) | 302 Found [http://test.host/publishers?publisher%5Bname%5D=The+Monopoly+Publishing+Company]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM publishers [0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mSELECT count(*) AS count_all FROM publishers [0m
+
+
+Processing PublishersController#create (for 0.0.0.0 at 2010-03-25 17:48:57) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"publishers", "publisher"=>{"name"=>"The Monopoly Publishing Company"}}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers.name = 'The Monopoly Publishing Company') LIMIT 1[0m
+  [4;36;1mPublisher Create (0.000000)[0m   [0;1mINSERT INTO publishers ("name", "updated_at", "created_at") VALUES('The Monopoly Publishing Company', '2010-03-25 17:48:57', '2010-03-25 17:48:57')[0m
+Redirected to http://test.host/publishers/996332878
+Completed in 0.01600 (62 reqs/sec) | DB: 0.01600 (100%) | 302 Found [http://test.host/publishers?publisher%5Bname%5D=The+Monopoly+Publishing+Company]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM publishers [0m
+
+
+Processing PublishersController#show (for 0.0.0.0 at 2010-03-25 17:48:57) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/publishers/1]
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers.name = 'Apress' AND publishers.id <> 1) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM publishers [0m
+
+
+Processing PublishersController#create (for 0.0.0.0 at 2010-03-25 17:53:35) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"publishers", "publisher"=>{"name"=>"The Monopoly Publishing Company"}}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers.name = 'The Monopoly Publishing Company') LIMIT 1[0m
+  [4;36;1mPublisher Create (0.000000)[0m   [0;1mINSERT INTO publishers ("name", "updated_at", "created_at") VALUES('The Monopoly Publishing Company', '2010-03-25 17:53:35', '2010-03-25 17:53:35')[0m
+Redirected to http://test.host/publishers/996332878
+Completed in 0.01600 (62 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/publishers?publisher%5Bname%5D=The+Monopoly+Publishing+Company]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM publishers [0m
+
+
+Processing PublishersController#show (for 0.0.0.0 at 2010-03-25 17:53:35) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/publishers/1]
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers.name = 'Apress' AND publishers.id <> 1) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+
+
+Processing PublishersController#update (for 0.0.0.0 at 2010-03-25 17:53:35) [POST]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"1", "controller"=>"publishers", "publisher"=>{"name"=>"Apress.com"}}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers.name = 'Apress.com' AND publishers.id <> 1) LIMIT 1[0m
+  [4;35;1mPublisher Update (0.000000)[0m   [0mUPDATE publishers SET "created_at" = '2010-03-25 17:53:34', "name" = 'Apress.com', "updated_at" = '2010-03-25 17:53:35' WHERE "id" = 1[0m
+Redirected to http://test.host/publishers/1
+Completed in 0.01600 (62 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/publishers/1?publisher%5Bname%5D=Apress.com]
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+
+
+Processing PublishersController#create (for 127.0.0.1 at 2010-03-25 17:56:20) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"939f4b8caf2a492f4f7b552a521c36e4d2517bba", "action"=>"create", "publisher"=>{"name"=>""}, "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers.name = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering publishers/new
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01500 (31%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#create (for 127.0.0.1 at 2010-03-25 17:56:43) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"commit"=>"Create", "action"=>"create", "publisher"=>{"name"=>"北京大學工業出版社"}, "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers.name = '北京大學工業出版社') LIMIT 1[0m
+  [4;36;1mPublisher Create (0.000000)[0m   [0;1mINSERT INTO publishers ("name", "updated_at", "created_at") VALUES('北京大學工業出版社', '2010-03-25 17:56:43', '2010-03-25 17:56:43')[0m
+Redirected to http://localhost:3000/publishers/996332878
+Completed in 0.12500 (8 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/publishers]
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 17:56:44) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiKFB1Ymxpc2hlciB3YXMgc3VjY2Vzc2Z1bGx5IGNy%0AZWF0ZWQuBjoKQHVzZWR7BjsGVDoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMy%0AZDI5ZmFlMzVmNWQzNzBjZWE%3D--5696cea929e1da95a6f717d23b44c27f4941dd9b
+  Parameters: {"action"=>"show", "id"=>"996332878", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 996332878) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/996332878]
+
+
+Processing PublishersController#edit (for 127.0.0.1 at 2010-03-25 17:56:47) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"edit", "id"=>"996332878", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 996332878) [0m
+Rendering template within layouts/application
+Rendering publishers/edit
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/996332878/edit]
+
+
+Processing PublishersController#update (for 127.0.0.1 at 2010-03-25 17:56:58) [PUT]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"commit"=>"Update", "_method"=>"put", "action"=>"update", "id"=>"996332878", "publisher"=>{"name"=>"哈爾濱工業大學工業出版社"}, "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 996332878) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers.name = '哈爾濱工業大學工業出版社' AND publishers.id <> 996332878) LIMIT 1[0m
+  [4;35;1mPublisher Update (0.000000)[0m   [0mUPDATE publishers SET "created_at" = '2010-03-25 17:56:43', "name" = '哈爾濱工業大學工業出版社', "updated_at" = '2010-03-25 17:56:58' WHERE "id" = 996332878[0m
+Redirected to http://localhost:3000/publishers/996332878
+Completed in 0.09400 (10 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/publishers/996332878]
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 17:56:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIihQdWJsaXNoZXIgd2FzIHN1Y2Nlc3NmdWxseSB1cGRh%0AdGVkLgY6CkB1c2VkewY7B1Q%3D--bee20a63f1f5f6ed391f070a46259343cc6d50bc
+  Parameters: {"action"=>"show", "id"=>"996332878", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 996332878) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/996332878]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 17:57:03) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-25 17:57:12) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Rendered author/_author (0.00000)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 17:57:28) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"show", "id"=>"996332878", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 996332878) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/996332878]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 17:58:20) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#destroy (for 127.0.0.1 at 2010-03-25 17:58:23) [DELETE]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"_method"=>"delete", "action"=>"destroy", "id"=>"996332878", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.016000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 996332878) [0m
+  [4;36;1mPublisher Destroy (0.000000)[0m   [0;1m DELETE FROM publishers
+ WHERE "id" = 996332878
+[0m
+Redirected to http://localhost:3000/publishers
+Completed in 0.21900 (4 reqs/sec) | DB: 0.01600 (7%) | 302 Found [http://localhost/publishers/996332878]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 17:58:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#new (for 127.0.0.1 at 2010-03-25 18:01:42) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"new", "controller"=>"publishers"}
+Rendering template within layouts/application
+Rendering publishers/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/new]
+
+
+Processing PublishersController#create (for 127.0.0.1 at 2010-03-25 18:01:46) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"commit"=>"Create", "action"=>"create", "publisher"=>{"name"=>"哈爾濱工業大學工業出版社"}, "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers.name = '哈爾濱工業大學工業出版社') LIMIT 1[0m
+  [4;35;1mPublisher Create (0.000000)[0m   [0mINSERT INTO publishers ("name", "updated_at", "created_at") VALUES('哈爾濱工業大學工業出版社', '2010-03-25 18:01:46', '2010-03-25 18:01:46')[0m
+Redirected to http://localhost:3000/publishers/996332879
+Completed in 0.11000 (9 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/publishers]
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 18:01:46) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiKFB1Ymxpc2hlciB3YXMgc3VjY2Vzc2Z1bGx5IGNy%0AZWF0ZWQuBjoKQHVzZWR7BjsGVDoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMy%0AZDI5ZmFlMzVmNWQzNzBjZWE%3D--5696cea929e1da95a6f717d23b44c27f4941dd9b
+  Parameters: {"action"=>"show", "id"=>"996332879", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.015000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 996332879) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (100%) | 200 OK [http://localhost/publishers/996332879]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:01:47) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03200 (68%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#996332879 (for 127.0.0.1 at 2010-03-25 18:01:52) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"996332879", "controller"=>"publishers"}
+
+
+ActionController::UnknownAction (No action responded to 996332879):
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:02:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#996332879 (for 127.0.0.1 at 2010-03-25 18:02:59) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"996332879", "controller"=>"publishers"}
+
+
+ActionController::UnknownAction (No action responded to 996332879):
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:06:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03100 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#996332879 (for 127.0.0.1 at 2010-03-25 18:06:08) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"996332879", "controller"=>"publishers"}
+
+
+ActionController::UnknownAction (No action responded to 996332879):
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 18:06:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"show", "id"=>"996332879", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 996332879) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/996332879]
+
+
+Processing PublishersController#edit (for 127.0.0.1 at 2010-03-25 18:06:17) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"edit", "id"=>"996332879", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 996332879) [0m
+Rendering template within layouts/application
+Rendering publishers/edit
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/996332879/edit]
+
+
+Processing PublishersController#update (for 127.0.0.1 at 2010-03-25 18:06:40) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"commit"=>"Update", "_method"=>"put", "action"=>"update", "id"=>"996332879", "publisher"=>{"name"=>"南京工業大學工業出版社"}, "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 996332879) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers.name = '南京工業大學工業出版社' AND publishers.id <> 996332879) LIMIT 1[0m
+  [4;35;1mPublisher Update (0.000000)[0m   [0mUPDATE publishers SET "created_at" = '2010-03-25 18:01:46', "name" = '南京工業大學工業出版社', "updated_at" = '2010-03-25 18:06:40' WHERE "id" = 996332879[0m
+Redirected to http://localhost:3000/publishers/996332879
+Completed in 0.11000 (9 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/publishers/996332879]
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 18:06:40) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiKFB1Ymxpc2hlciB3YXMgc3VjY2Vzc2Z1bGx5IHVw%0AZGF0ZWQuBjoKQHVzZWR7BjsGVDoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMy%0AZDI5ZmFlMzVmNWQzNzBjZWE%3D--1f845f5f416e1cf96d1d91a3b06c9d1eec045b5b
+  Parameters: {"action"=>"show", "id"=>"996332879", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 996332879) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/996332879]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:06:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#996332879 (for 127.0.0.1 at 2010-03-25 18:06:45) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"996332879", "controller"=>"publishers"}
+
+
+ActionController::UnknownAction (No action responded to 996332879):
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PublishersController#996332879 (for 127.0.0.1 at 2010-03-25 18:07:08) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"996332879", "controller"=>"publishers"}
+
+
+ActionController::UnknownAction (No action responded to 996332879):
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:07:27) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#1 (for 127.0.0.1 at 2010-03-25 18:07:32) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"1", "controller"=>"publishers"}
+
+
+ActionController::UnknownAction (No action responded to 1):
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:08:05) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03100 (65%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#new (for 127.0.0.1 at 2010-03-25 18:08:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"new", "controller"=>"publishers"}
+Rendering template within layouts/application
+Rendering publishers/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/new]
+
+
+Processing PublishersController#create (for 127.0.0.1 at 2010-03-25 18:08:12) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"commit"=>"Create", "action"=>"create", "publisher"=>{"name"=>"Po"}, "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers.name = 'Po') LIMIT 1[0m
+  [4;36;1mPublisher Create (0.000000)[0m   [0;1mINSERT INTO publishers ("name", "updated_at", "created_at") VALUES('Po', '2010-03-25 18:08:12', '2010-03-25 18:08:12')[0m
+Redirected to http://localhost:3000/publishers/996332880
+Completed in 0.09400 (10 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/publishers]
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 18:08:12) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIihQdWJsaXNoZXIgd2FzIHN1Y2Nlc3NmdWxseSBjcmVh%0AdGVkLgY6CkB1c2VkewY7B1Q%3D--89fb3b11d9319258068721f625b72dbb9f28f751
+  Parameters: {"action"=>"show", "id"=>"996332880", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 996332880) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/996332880]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:08:13) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#996332880 (for 127.0.0.1 at 2010-03-25 18:08:15) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"996332880", "controller"=>"publishers"}
+
+
+ActionController::UnknownAction (No action responded to 996332880):
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PublishersController#996332880 (for 127.0.0.1 at 2010-03-25 18:16:41) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"996332880", "controller"=>"publishers"}
+
+
+ActionController::UnknownAction (No action responded to 996332880):
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:17:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#new (for 127.0.0.1 at 2010-03-25 18:17:07) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"new", "controller"=>"publishers"}
+Rendering template within layouts/application
+Rendering publishers/new
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/new]
+
+
+Processing PublishersController#create (for 127.0.0.1 at 2010-03-25 18:17:10) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"commit"=>"Create", "action"=>"create", "publisher"=>{"name"=>"Po"}, "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers.name = 'Po') LIMIT 1[0m
+  [4;35;1mPublisher Create (0.000000)[0m   [0mINSERT INTO publishers ("name", "updated_at", "created_at") VALUES('Po', '2010-03-25 18:17:10', '2010-03-25 18:17:10')[0m
+Redirected to http://localhost:3000/publishers/996332881
+Completed in 0.10900 (9 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/publishers]
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 18:17:11) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiKFB1Ymxpc2hlciB3YXMgc3VjY2Vzc2Z1bGx5IGNy%0AZWF0ZWQuBjoKQHVzZWR7BjsGVDoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMy%0AZDI5ZmFlMzVmNWQzNzBjZWE%3D--5696cea929e1da95a6f717d23b44c27f4941dd9b
+  Parameters: {"action"=>"show", "id"=>"996332881", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 996332881) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/996332881]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:17:12) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#destroy (for 127.0.0.1 at 2010-03-25 18:17:25) [DELETE]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"_method"=>"delete", "action"=>"destroy", "id"=>"996332881", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 996332881) [0m
+  [4;35;1mPublisher Destroy (0.000000)[0m   [0m DELETE FROM publishers
+ WHERE "id" = 996332881
+[0m
+Redirected to http://localhost:3000/publishers
+Completed in 0.11000 (9 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/publishers/996332881]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:17:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#new (for 127.0.0.1 at 2010-03-25 18:17:32) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"new", "controller"=>"publishers"}
+Rendering template within layouts/application
+Rendering publishers/new
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/new]
+
+
+Processing PublishersController#create (for 127.0.0.1 at 2010-03-25 18:17:35) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"commit"=>"Create", "action"=>"create", "publisher"=>{"name"=>"Po"}, "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers.name = 'Po') LIMIT 1[0m
+  [4;36;1mPublisher Create (0.000000)[0m   [0;1mINSERT INTO publishers ("name", "updated_at", "created_at") VALUES('Po', '2010-03-25 18:17:35', '2010-03-25 18:17:35')[0m
+Redirected to http://localhost:3000/publishers/996332882
+Completed in 0.20300 (4 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/publishers]
+
+
+Processing PublishersController#show (for 127.0.0.1 at 2010-03-25 18:17:35) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiKFB1Ymxpc2hlciB3YXMgc3VjY2Vzc2Z1bGx5IGNy%0AZWF0ZWQuBjoKQHVzZWR7BjsGVDoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMy%0AZDI5ZmFlMzVmNWQzNzBjZWE%3D--5696cea929e1da95a6f717d23b44c27f4941dd9b
+  Parameters: {"action"=>"show", "id"=>"996332882", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 996332882) [0m
+Rendering template within layouts/application
+Rendering publishers/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers/996332882]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:17:37) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:18:36) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.016000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.01600 (50%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:19:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:19:27) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.015000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (100%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:20:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+
+
+Processing PublishersController#destroy (for 127.0.0.1 at 2010-03-25 18:21:21) [DELETE]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5%0AZmFlMzVmNWQzNzBjZWE%3D--28495ddd9f075665964e911fc4aa93dd379a06a1
+  Parameters: {"_method"=>"delete", "action"=>"destroy", "id"=>"996332882", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 996332882) [0m
+  [4;36;1mPublisher Destroy (0.000000)[0m   [0;1m DELETE FROM publishers
+ WHERE "id" = 996332882
+[0m
+Redirected to http://localhost:3000/publishers
+Completed in 0.10900 (9 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/publishers/996332882]
+
+
+Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:21:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYjliMmI2OGQzZmI0NmMyZDI5ZmFlMzVmNWQzNzBj%0AZWEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--0c57ff67c1b858c3e8613f295377000d766dec18
+  Parameters: {"action"=>"index", "controller"=>"publishers"}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering publishers/index
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
