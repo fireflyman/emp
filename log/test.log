@@ -1,0 +1,3532 @@
+# Logfile created on Mon Mar 22 15:15:52 +0800 2010  [4;36;1mAuthor Create (0.000000)[0m   [0;1mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+  [4;36;1mAuthor Create (0.000000)[0m   [0;1mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+  [4;36;1mAuthor Create (0.000000)[0m   [0;1mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-22 18:39:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-22 18:40:00) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-22 18:40:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-22 18:59:04) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-22 18:59:57) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-23 18:01:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01500)
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.07900 (84%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-23 18:01:14) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.07900 (526%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-23 18:01:14) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.09400 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-23 18:38:56) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03200 (68%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-23 18:38:56) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03200 (32000%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-23 18:38:56) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-23 18:38:56) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-23 18:56:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01500)
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.04600 (74%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-23 18:56:23) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.04600 (287%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-23 18:56:23) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-23 18:56:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-23 18:56:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-23 18:57:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.03100)
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.06200 (79%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-23 18:57:51) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.06200 (387%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-23 18:57:51) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-23 18:57:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.015000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-23 18:57:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-23 19:01:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03200 (50%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-23 19:01:51) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.015000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.03200 (213%) | DB: 0.01500 (100%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-23 19:01:51) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-23 19:01:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.016000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-23 19:01:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-23 19:03:58) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03100 (65%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-23 19:03:58) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.03100 (206%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-23 19:03:58) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01500)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-23 19:03:58) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-23 19:03:58) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:13:05) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.10900 (87%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:13:05) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.10900 (108999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:13:05) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 10:13:05) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Rendered author/_author (0.00000)
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.03200 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:13:05) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 10:13:05) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:17:00) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:17:00) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.03100 (193%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:17:00) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 10:17:00) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:17:00) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 10:17:00) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:17:45) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03200 (68%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:17:45) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03200 (32000%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:17:45) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 10:17:45) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01500)
+Rendered author/_author (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:17:46) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 10:17:46) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:18:21) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:18:21) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.03100 (193%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:18:21) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01500)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 10:18:21) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01500)
+Rendered author/_author (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:18:21) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 10:18:21) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:18:45) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:18:45) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.03100 (193%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:18:45) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.016000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 10:18:45) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.01600 (100%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:18:45) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 10:18:45) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:19:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:19:37) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03100 (31000%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:19:37) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 10:19:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.01600)
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:19:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 10:19:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:20:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01500)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:20:17) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03100 (30999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:20:17) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 10:20:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:20:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 10:20:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:21:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03200 (68%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:21:10) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03200 (32000%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 10:21:11) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 10:21:11) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 10:21:11) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 10:21:11) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:20:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01500)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:20:23) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03100 (31000%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:20:24) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 14:20:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:20:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 14:20:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:21:48) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:21:48) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.01600 (16000%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:21:49) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 14:21:49) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01500)
+Rendered author/_author (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:21:49) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 14:21:49) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:23:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03100 (65%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:23:42) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03100 (31000%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:23:42) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 14:23:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:23:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 14:23:42) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:27:22) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.015000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:27:22) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.016000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.03100 (193%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:27:22) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:27:22) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 14:27:22) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 14:30:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:31:15) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03100 (65%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:31:15) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03100 (31000%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:31:15) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:31:15) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 14:31:16) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:31:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03100 (65%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.016000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:31:38) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03100 (31000%) | DB: 0.01600 (16000%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:31:39) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 14:31:39) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:31:39) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 14:31:39) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:32:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:32:28) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.016000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.03100 (193%) | DB: 0.01600 (100%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:32:28) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 14:32:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:32:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 14:32:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:44:20) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03200 (68%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:44:20) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03200 (31999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:44:20) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 14:44:20) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:44:21) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 14:44:21) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:46:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.09400 (86%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:46:17) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.09400 (94000%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:46:17) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 14:46:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.01500)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:46:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 14:46:17) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-24 14:51:54) [GET]
+  Session ID: 45cb5b7d31339d45190ce8111edce399
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/store" with {:method=>:get}):
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 14:52:01) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01500)
+Rendered author/_author (0.00000)
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#show (for 127.0.0.1 at 2010-03-24 14:52:04) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/show/1]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 14:53:00) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#show (for 127.0.0.1 at 2010-03-24 14:53:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/show/1]
+
+
+Processing AuthorController#show (for 127.0.0.1 at 2010-03-24 14:53:28) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:55:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03100 (65%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:55:23) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03100 (30999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.016000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 14:55:23) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (16000%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 14:55:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 14:55:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01500)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 14:55:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 15:00:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01500)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03100 (65%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 15:00:28) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03100 (30999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 15:00:28) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 15:00:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.01600)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mAuthor Load (0.015000)[0m   [0mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 15:00:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (14999%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 15:00:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#show (for 127.0.0.1 at 2010-03-24 15:00:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/show/1]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 15:04:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Rendered author/_author (0.00000)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.04700 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#edit (for 127.0.0.1 at 2010-03-24 15:04:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/edit
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.03200 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/edit/1]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 15:04:14) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.016000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (100%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#show (for 127.0.0.1 at 2010-03-24 15:04:15) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 2) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/show/2]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 15:05:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.03200 (68%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.016000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 15:05:10) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03200 (31999%) | DB: 0.01600 (16000%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 15:05:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/edit
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 15:05:10) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.016000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 15:05:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.01600 (100%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 15:05:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 15:05:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 15:08:18) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 15:08:18) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.03100 (30999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 15:08:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.016000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (100%) | 200 OK [http://test.host/author/edit/1]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 15:08:19) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 15:08:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 15:08:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 15:08:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 15:54:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01500)
+Completed in 0.11000 (9 reqs/sec) | Rendering: 0.11000 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 15:54:19) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.11000 (109999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 15:54:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;36;1mSQL (0.015000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 15:54:19) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (14999%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 15:54:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 15:54:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 15:54:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 15:54:19) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Update (0.000000)[0m   [0mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:26:01) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.10900 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:26:01) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.10900 (108999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destory (for 0.0.0.0 at 2010-03-24 16:26:01) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destory", "id"=>"1", "controller"=>"author"}
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 16:26:01) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.015000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (100%) | 200 OK [http://test.host/author/edit/1]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:26:01) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 16:26:01) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:26:01) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 16:26:01) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 16:26:01) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;36;1mAuthor Update (0.000000)[0m   [0;1mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:26:52) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.09400 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:26:52) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.09400 (93999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-24 16:26:52) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/destroy
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 16:26:52) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:26:52) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 16:26:52) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:26:52) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 16:26:52) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.016000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (100%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 16:26:52) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;36;1mAuthor Update (0.000000)[0m   [0;1mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.01500 (66 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:30:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.11000 (9 reqs/sec) | Rendering: 0.11000 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:30:37) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.11000 (110000%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-24 16:30:37) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Destroy (0.000000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/destroy/1]
+  [4;36;1mSQL (0.016000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 16:30:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.01600 (100%) | 200 OK [http://test.host/author/edit/1]
+  [4;36;1mSQL (0.015000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:30:37) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (15000%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 16:30:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:30:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 16:30:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 16:30:37) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Update (0.000000)[0m   [0mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.01600 (62 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 16:31:46) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Rendered author/_author (0.00000)
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.04600 (74%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#show (for 127.0.0.1 at 2010-03-24 16:31:48) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/show/1]
+
+
+Processing AuthorController#edit (for 127.0.0.1 at 2010-03-24 16:31:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.01500)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/edit/1]
+
+
+Processing AuthorController#update (for 127.0.0.1 at 2010-03-24 16:31:53) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"commit"=>"Edit", "author"=>{"first_name"=>"Joe", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.015000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;36;1mAuthor Update (0.000000)[0m   [0;1mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joe' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/author/show/1
+Completed in 0.10900 (9 reqs/sec) | DB: 0.01500 (13%) | 302 Found [http://localhost/author/update/1]
+
+
+Processing AuthorController#show (for 127.0.0.1 at 2010-03-24 16:31:53) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiJUF1dGhvciB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0%0AZWQuBjoKQHVzZWR7BjsGVA%3D%3D--669fddb2e3a02b6b41fcc3b7d205e296223a604a
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/show/1]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 16:31:56) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.016000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (100%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#new (for 127.0.0.1 at 2010-03-24 16:31:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/new]
+
+
+Processing AuthorController#create (for 127.0.0.1 at 2010-03-24 16:32:04) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"commit"=>"Create", "author"=>{"first_name"=>"JJ", "last_name"=>"BB"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('JJ', 'BB')[0m
+Redirected to http://localhost:3000/author
+Completed in 0.12500 (8 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/author/create]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 16:32:04) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiK0F1dGhvciBKSiBCQiB3YXMgc3VjY2Vzc2Z1bGx5%0AIGNyZWF0ZWQuBjoKQHVzZWR7BjsGVA%3D%3D--abc0b93c15f6a048324a68a84a98d67cae252e84
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.01500)
+Rendered author/_author (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#destroy (for 127.0.0.1 at 2010-03-24 16:32:07) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"destroy", "id"=>"3", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 3) [0m
+  [4;36;1mAuthor Destroy (0.000000)[0m   [0;1m DELETE FROM authors
+ WHERE "id" = 3
+[0m
+Redirected to http://localhost:3000/author
+Completed in 0.10900 (9 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/author/destroy/3]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 16:32:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiJlN1Y2Nlc3NmdWxseSBkZWxldGVkIGF1dGhvciBK%0ASiBCQgY6CkB1c2VkewY7BlQ%3D--69aaa2f92c5f8fe5344d5abfa20c1a968c8516d1
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.01500)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#new (for 127.0.0.1 at 2010-03-24 16:32:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/new]
+
+
+Processing AuthorController#create (for 127.0.0.1 at 2010-03-24 16:32:15) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"commit"=>"Create", "author"=>{"first_name"=>"JJ", "last_name"=>"BB"}, "action"=>"create", "controller"=>"author"}
+  [4;36;1mAuthor Create (0.000000)[0m   [0;1mINSERT INTO authors ("first_name", "last_name") VALUES('JJ', 'BB')[0m
+Redirected to http://localhost:3000/author
+Completed in 0.12500 (8 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/author/create]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 16:32:15) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiK0F1dGhvciBKSiBCQiB3YXMgc3VjY2Vzc2Z1bGx5%0AIGNyZWF0ZWQuBjoKQHVzZWR7BjsGVA%3D%3D--abc0b93c15f6a048324a68a84a98d67cae252e84
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01500)
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#edit (for 127.0.0.1 at 2010-03-24 16:32:18) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"edit", "id"=>"4", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 4) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/edit/4]
+
+
+Processing AuthorController#update (for 127.0.0.1 at 2010-03-24 16:32:23) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"commit"=>"Edit", "author"=>{"first_name"=>"JdsaJ", "last_name"=>"BdassafggB"}, "action"=>"update", "id"=>"4", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 4) [0m
+  [4;36;1mAuthor Update (0.000000)[0m   [0;1mUPDATE authors SET "last_name" = 'BdassafggB', "first_name" = 'JdsaJ' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/author/show/4
+Completed in 0.21800 (4 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/author/update/4]
+
+
+Processing AuthorController#show (for 127.0.0.1 at 2010-03-24 16:32:23) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiJUF1dGhvciB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0%0AZWQuBjoKQHVzZWR7BjsGVA%3D%3D--669fddb2e3a02b6b41fcc3b7d205e296223a604a
+  Parameters: {"action"=>"show", "id"=>"4", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 4) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/show/4]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 16:32:24) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01500)
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#destroy (for 127.0.0.1 at 2010-03-24 16:32:27) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"destroy", "id"=>"4", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 4) [0m
+  [4;36;1mAuthor Destroy (0.000000)[0m   [0;1m DELETE FROM authors
+ WHERE "id" = 4
+[0m
+Redirected to http://localhost:3000/author
+Completed in 0.10900 (9 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/author/destroy/4]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 16:32:27) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiMVN1Y2Nlc3NmdWxseSBkZWxldGVkIGF1dGhvciBK%0AZHNhSiBCZGFzc2FmZ2dCBjoKQHVzZWR7BjsGVA%3D%3D--c82d2b6144851b1486f9b339f8a6bad71cbfd4f2
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing AboutController#index (for 127.0.0.1 at 2010-03-24 16:32:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"index", "controller"=>"about"}
+Rendering template within layouts/application
+Rendering about/index
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing AuthorController#new (for 127.0.0.1 at 2010-03-24 16:32:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.03100 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/new]
+
+
+Processing AuthorController#create (for 127.0.0.1 at 2010-03-24 16:33:04) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"commit"=>"Create", "author"=>{"first_name"=>"JJ", "last_name"=>"BB"}, "action"=>"create", "controller"=>"author"}
+  [4;36;1mAuthor Create (0.000000)[0m   [0;1mINSERT INTO authors ("first_name", "last_name") VALUES('JJ', 'BB')[0m
+Redirected to http://localhost:3000/author
+Completed in 0.09400 (10 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/author/create]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 16:33:04) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiK0F1dGhvciBKSiBCQiB3YXMgc3VjY2Vzc2Z1bGx5%0AIGNyZWF0ZWQuBjoKQHVzZWR7BjsGVA%3D%3D--abc0b93c15f6a048324a68a84a98d67cae252e84
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:46:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.10900 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:46:38) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.10900 (108999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.016000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-24 16:46:38) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Destroy (0.000000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.01600 (16000%) | 302 Found [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 16:46:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 16:46:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:46:38) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 16:46:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:46:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 16:46:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 16:46:38) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Update (0.000000)[0m   [0mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:49:04) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01500)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.09300 (85%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:49:04) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.09300 (92999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-24 16:49:04) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Destroy (0.000000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 16:49:04) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 16:49:04) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:49:04) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 16:49:04) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.01600)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:49:04) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 16:49:04) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 16:49:04) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Update (0.000000)[0m   [0mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:49:55) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.11000 (9 reqs/sec) | Rendering: 0.11000 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:49:55) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.11000 (110000%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.015000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-24 16:49:55) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Destroy (0.000000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.01500 (14999%) | 302 Found [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 16:49:55) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 16:49:55) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:49:55) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 16:49:55) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:49:55) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 16:49:55) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 16:49:55) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Update (0.000000)[0m   [0mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:50:53) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01500)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.10900 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:50:53) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.016000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.10900 (681%) | DB: 0.01600 (100%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-24 16:50:53) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Destroy (0.016000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/author
+Completed in 0.01600 (62 reqs/sec) | DB: 0.01600 (100%) | 302 Found [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 16:50:53) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01500)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 16:50:53) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.01600)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:50:53) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 16:50:53) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:50:53) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 16:50:53) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 16:50:53) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Update (0.000000)[0m   [0mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:56:06) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.10900 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:56:06) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.10900 (109000%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-24 16:56:06) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Destroy (0.000000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 16:56:06) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.015000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (100%) | 200 OK [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 16:56:06) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.01600)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 16:56:06) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 16:56:06) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 16:56:06) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 16:56:06) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 16:56:06) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Update (0.000000)[0m   [0mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 17:02:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.10900 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 17:02:10) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.10900 (108999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-24 17:02:10) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Destroy (0.000000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 17:02:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 17:02:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 17:02:10) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 17:02:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 17:02:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 17:02:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 17:02:10) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Update (0.000000)[0m   [0mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 17:05:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.11000 (9 reqs/sec) | Rendering: 0.09400 (85%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.015000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 17:05:23) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.09400 (94000%) | DB: 0.01500 (14999%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.016000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-24 17:05:24) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Destroy (0.000000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.01600 (16000%) | 302 Found [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 17:05:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 17:05:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 17:05:24) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 17:05:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+  [4;36;1mAuthor Load (0.016000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 17:05:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (16000%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 17:05:24) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 17:05:24) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Update (0.000000)[0m   [0mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 17:24:54) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.016000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01500)
+Rendered author/_author (0.00000)
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.01600 (25%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#new (for 127.0.0.1 at 2010-03-24 17:24:56) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/new]
+
+
+Processing AuthorController#create (for 127.0.0.1 at 2010-03-24 17:25:09) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"commit"=>"Create", "author"=>{"first_name"=>"Test", "last_name"=>"Boygener"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Test', 'Boygener')[0m
+Redirected to http://localhost:3000/author
+Completed in 0.11000 (9 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/author/create]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 17:25:09) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiM0F1dGhvciBUZXN0IEJveWdlbmVyIHdhcyBzdWNj%0AZXNzZnVsbHkgY3JlYXRlZC4GOgpAdXNlZHsGOwZU--048b6e9a525e443297acfd6dd6b7650239de4077
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.01500)
+Rendered author/_author (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#edit (for 127.0.0.1 at 2010-03-24 17:25:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"edit", "id"=>"6", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 6) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author/edit/6]
+
+
+Processing AuthorController#update (for 127.0.0.1 at 2010-03-24 17:25:42) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"commit"=>"Edit", "author"=>{"first_name"=>"Test", "last_name"=>"Boy"}, "action"=>"update", "id"=>"6", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 6) [0m
+  [4;35;1mAuthor Update (0.000000)[0m   [0mUPDATE authors SET "last_name" = 'Boy', "first_name" = 'Test' WHERE "id" = 6[0m
+Redirected to http://localhost:3000/author/show/6
+Completed in 0.10900 (9 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/author/update/6]
+
+
+Processing AuthorController#show (for 127.0.0.1 at 2010-03-24 17:25:42) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiJUF1dGhvciB3YXMgc3VjY2Vzc2Z1bGx5IHVwZGF0%0AZWQuBjoKQHVzZWR7BjsGVA%3D%3D--669fddb2e3a02b6b41fcc3b7d205e296223a604a
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.016000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 6) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (100%) | 200 OK [http://localhost/author/show/6]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 17:25:46) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#destroy (for 127.0.0.1 at 2010-03-24 17:25:48) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--57525d374517c7a49a1385ac129234929ff6e8b9
+  Parameters: {"action"=>"destroy", "id"=>"6", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 6) [0m
+  [4;35;1mAuthor Destroy (0.000000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 6
+[0m
+Redirected to http://localhost:3000/author
+Completed in 0.12500 (8 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/author/destroy/6]
+
+
+Processing AuthorController#index (for 127.0.0.1 at 2010-03-24 17:25:48) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiKVN1Y2Nlc3NmdWxseSBkZWxldGVkIGF1dGhvciBU%0AZXN0IEJveQY6CkB1c2VkewY7BlQ%3D--6c8f88c00f63427a54ad1be4f6e3fbf759ce2a8d
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01500)
+Rendered author/_author (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/author]
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 17:31:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.09400 (86%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 17:31:51) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.09400 (587%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-24 17:31:51) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Destroy (0.000000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 17:31:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 17:31:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 17:31:51) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 17:31:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.01500)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 17:31:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 17:31:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 17:31:51) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Update (0.000000)[0m   [0mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 17:32:43) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.09400 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 17:32:43) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.09400 (94000%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-24 17:32:43) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Destroy (0.000000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 17:32:43) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 17:32:43) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 17:32:43) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 17:32:43) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 17:32:43) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 17:32:43) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 17:32:43) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Update (0.000000)[0m   [0mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;36;1mAuthor Load (0.016000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 17:48:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01600)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.09400 (86%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 17:48:31) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.09400 (587%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-24 17:48:31) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Destroy (0.000000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/author
+Completed in 0.01500 (66 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 17:48:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.01600)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 17:48:31) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 17:48:31) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;35;1mSQL (0.016000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 17:48:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (15999%) | 200 OK [http://test.host/author]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 17:48:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 17:48:32) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 17:48:32) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Update (0.000000)[0m   [0mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.01600 (62 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 17:59:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.01500)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.10900 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 17:59:33) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel", "last_name"=>"Spolsky"}, "action"=>"create", "controller"=>"author"}
+  [4;35;1mAuthor Create (0.000000)[0m   [0mINSERT INTO authors ("first_name", "last_name") VALUES('Joel', 'Spolsky')[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.10900 (108999%) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/new]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#destroy (for 0.0.0.0 at 2010-03-24 17:59:33) [POST]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;35;1mAuthor Destroy (0.000000)[0m   [0m DELETE FROM authors
+ WHERE "id" = 1
+[0m
+Redirected to http://test.host/author
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/destroy/1]
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 17:59:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/destroy/1]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#edit (for 0.0.0.0 at 2010-03-24 17:59:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/edit
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/edit/1]
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#create (for 0.0.0.0 at 2010-03-24 17:59:33) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joel"}, "action"=>"create", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/create?author%5Bfirst_name%5D=Joel]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+
+
+Processing AuthorController#index (for 0.0.0.0 at 2010-03-24 17:59:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+Rendering template within layouts/application
+Rendering author/index
+Rendered author/_author (0.00000)
+Rendered author/_author (0.00000)
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+
+
+Processing AuthorController#new (for 0.0.0.0 at 2010-03-24 17:59:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"author"}
+Rendering template within layouts/application
+Rendering author/new
+Rendered author/_form (0.00000)
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/new]
+
+
+Processing AuthorController#show (for 0.0.0.0 at 2010-03-24 17:59:33) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"author"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+Rendering template within layouts/application
+Rendering author/show
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://test.host/author/show/1]
+
+
+Processing AuthorController#update (for 0.0.0.0 at 2010-03-24 17:59:33) [POST]
+  Session ID: 
+  Parameters: {"author"=>{"first_name"=>"Joseph", "last_name"=>"Spolsky"}, "action"=>"update", "id"=>"1", "controller"=>"author"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
+  [4;36;1mAuthor Update (0.000000)[0m   [0;1mUPDATE authors SET "last_name" = 'Spolsky', "first_name" = 'Joseph' WHERE "id" = 1[0m
+Redirected to http://test.host/author/show/1
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://test.host/author/update/1?author%5Bfirst_name%5D=Joseph&author%5Blast_name%5D=Spolsky]
+  [4;35;1mAuthor Load (0.015000)[0m   [0mSELECT * FROM authors WHERE (authors."id" = 1) [0m
