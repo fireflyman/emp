@@ -4594,3 +4594,265 @@ Processing PublishersController#index (for 127.0.0.1 at 2010-03-25 18:21:21) [GE
 Rendering template within layouts/application
 Rendering publishers/index
 Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/publishers]
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mBook Load (0.016000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.015000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 15:08:32', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 15:08:32', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 15:08:32')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 16:57:36', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 16:57:36', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 16:57:36')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:07:58', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:07:58', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:07:58')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:07:58', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:07:58', 1, 'E-Commerce on Rails', '2010-03-26 17:07:58')[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:19:16', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:19:15', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:19:16')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:19:16', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:19:16', 1, 'E-Commerce on Rails', '2010-03-26 17:19:16')[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:21:29', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:21:29', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:21:29')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:21:29', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:21:29', 1, 'E-Commerce on Rails', '2010-03-26 17:21:29')[0m
+  [4;35;1mPublisher Load (0.016000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:22:14', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:22:14', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:22:14')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:22:14', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:22:14', 1, 'E-Commerce on Rails', '2010-03-26 17:22:14')[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:23:00', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:23:00', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:23:00')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:23:00', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:23:00', 1, 'E-Commerce on Rails', '2010-03-26 17:23:00')[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:23:56', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:23:56', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:23:56')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:23:56', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:23:56', 1, 'E-Commerce on Rails', '2010-03-26 17:23:56')[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.015000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:24:57', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:24:57', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:24:57')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.016000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:26:23', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:26:23', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:26:23')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.015000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:26:44', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:26:44', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:26:44')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:26:44', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:26:44', 1, 'E-Commerce on Rails', '2010-03-26 17:26:44')[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:28:23', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:28:23', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:28:23')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mAuthor Load (0.015000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;35;1mBook Create (0.000000)[0m   [0mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:28:23', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:28:23', 1, 'E-Commerce on Rails', '2010-03-26 17:28:23')[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:29:46', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:29:46', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:29:46')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mAuthor Load (0.016000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;35;1mBook Create (0.000000)[0m   [0mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:29:46', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:29:46', 1, 'E-Commerce on Rails', '2010-03-26 17:29:46')[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.015000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:34:14', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:34:14', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:34:14')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:34:14', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:34:14', 1, 'E-Commerce on Rails', '2010-03-26 17:34:14')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM authors INNER JOIN authors_books ON authors.id = authors_books.author_id WHERE ((authors_books.book_id = 996332878)) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;35;1mBook Create (0.015000)[0m   [0mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:34:14', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:34:14', 1, 'E-Commerce on Rails', '2010-03-26 17:34:14')[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.016000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:35:36', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:35:36', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:35:36')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:35:36', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:35:36', 1, 'E-Commerce on Rails', '2010-03-26 17:35:36')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;35;1mBook Create (0.000000)[0m   [0mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:35:36', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:35:36', 1, 'E-Commerce on Rails', '2010-03-26 17:35:36')[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-1', '2010-03-26 17:54:45', 12, 40.4, 'Ruby for Toddlers', '2010-03-26 17:54:45', 1, 'The best book since "Bodo Bar zu Hause"', '2010-03-26 17:54:45')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn IS NULL) LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:54:45', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:54:45', 1, 'E-Commerce on Rails', '2010-03-26 17:54:45')[0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."name" = 'Apress') LIMIT 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors WHERE (authors."last_name" = 'Hellsten' AND authors."first_name" = 'Christian') LIMIT 1[0m
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors WHERE (authors."last_name" = 'Laine' AND authors."first_name" = 'Jarkko') LIMIT 1[0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-123-x') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "updated_at", "page_count", "price", "title", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-123-x', '2010-03-26 17:54:45', 300, 30.5, 'Rails E-Commerce 3rd Edition', '2010-03-26 17:54:45', 1, 'E-Commerce on Rails', '2010-03-26 17:54:45')[0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 996332878) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books WHERE (books.publisher_id = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
