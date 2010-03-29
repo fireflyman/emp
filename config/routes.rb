@@ -1,6 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :books
-
+  map.resources :authors
   map.resources :publishers
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -24,6 +24,7 @@ class BooksController < ApplicationController
   # GET /books/new
   # GET /books/new.xml
   def new
+    load_data
     @book = Book.new
 
     respond_to do |format|
@@ -34,7 +35,9 @@ class BooksController < ApplicationController
 
   # GET /books/1/edit
   def edit
+    load_data
     @book = Book.find(params[:id])
+    
   end
 
   # POST /books
@@ -48,6 +51,7 @@ class BooksController < ApplicationController
         format.html { redirect_to(@book) }
         format.xml  { render :xml => @book, :status => :created, :location => @book }
       else
+        load_data
         format.html { render :action => "new" }
         format.xml  { render :xml => @book.errors, :status => :unprocessable_entity }
       end
@@ -57,6 +61,7 @@ class BooksController < ApplicationController
   # PUT /books/1
   # PUT /books/1.xml
   def update
+    
     @book = Book.find(params[:id])
 
     respond_to do |format|
@@ -65,6 +70,7 @@ class BooksController < ApplicationController
         format.html { redirect_to(@book) }
         format.xml  { head :ok }
       else
+        load_data
         format.html { render :action => "edit" }
         format.xml  { render :xml => @book.errors, :status => :unprocessable_entity }
       end
@@ -82,4 +88,15 @@ class BooksController < ApplicationController
       format.xml  { head :ok }
     end
   end
+  
+  private
+  
+  def load_data
+    @authors = Author.find(:all)
+    @publishers = Publisher.find(:all)
+  end
+  
+
+  
+  
 end

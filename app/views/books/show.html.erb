@@ -33,6 +33,11 @@
   <%=h @book.price %>
 </p>
 
+ <p>
+ <b>Small Photo:</b>
+</p>
+<%= image_tag @book.photo.url(:small) %>  
+<br />
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <%= link_to 'Back', books_path %>

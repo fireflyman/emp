@@ -1,47 +1,53 @@
-<h1>Editing book</h1>
+<h1>Edit Book</h1>
 
-<%= error_messages_for :book %>
 
-<% form_for(@book) do |f| %>
-  <p>
-    <b>Title</b><br />
-    <%= f.text_field :title %>
-  </p>
 
-  <p>
-    <b>Publisher</b><br />
-    <%= f.text_field :publisher_id %>
-  </p>
+<%= error_messages_for 'book' %>
 
-  <p>
-    <b>Published at</b><br />
-    <%= f.datetime_select :published_at %>
-  </p>
+<% form_for(@book) do |f|%>
+<p>
+<b>Title</b><br/>
+<%= f.text_field :title %></p>
+</p>
 
-  <p>
-    <b>Isbn</b><br />
-    <%= f.text_field :isbn %>
-  </p>
+<p>
+<b>Publisher</b><br/>
+<%= f.collection_select  :publisher_id, @publishers, :id, :name %></p>
+</p>
 
-  <p>
-    <b>Blurb</b><br />
-    <%= f.text_area :blurb %>
-  </p>
+<p>
+<b>Published at</b><br/>
+<%= f.datetime_select :published_at %></p>
+</p>
 
-  <p>
-    <b>Page count</b><br />
-    <%= f.text_field :page_count %>
-  </p>
+<p>
+<b>Isbn</b><br/>
+<%= f.text_field :isbn %></p>
+</p>
 
-  <p>
-    <b>Price</b><br />
-    <%= f.text_field :price %>
-  </p>
+<p>
+<b>Blurb</b><br/>
+<%= f.text_area :blurb %></p>
+</p>
 
-  <p>
+<p>
+<b>Price</b><br/>
+<%= f.text_field :price %></p>
+</p>
+
+<p>
+<b>Page count</b><br/>
+<%= f.text_field :page_count %></p>
+</p>
+
+<p>   
+<b>Book photo</b><br />
+<%= f.file_field :photo %>    
+</p>   
+
+<p>
     <%= f.submit "Update" %>
   </p>
 <% end %>
-
-<%= link_to 'Show', @book %> |
-<%= link_to 'Back', books_path %>
+<%= link_to 'Show', :action => 'show', :id => @book %> |
+<%= link_to 'Back', :action => 'index' %>
