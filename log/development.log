@@ -7461,3 +7461,1450 @@ Processing BooksController#index (for 127.0.0.1 at 2010-03-29 18:44:18) [GET]
 Rendering template within layouts/application
 Rendering books/index
 Completed in 0.06200 (16 reqs/sec) | Rendering: 0.03100 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-29 18:47:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlNTM1MzEzMGM5N2VmNzczNDIwYzdkMTU5YWY3NDRm%0AYzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--f8ec8499e6d3829d7e1a945e00f83438088b7602
+  Parameters: {"action"=>"show", "id"=>"4", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 4) [0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/4]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-29 18:47:07) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlNTM1MzEzMGM5N2VmNzczNDIw%0AYzdkMTU5YWY3NDRmYzY%3D--e7f9b92c4e2853af9958f0a9819774acd1a0223f
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.140000)[0m   [0;1mSELECT * FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+Completed in 0.18800 (5 reqs/sec) | Rendering: 0.03200 (17%) | DB: 0.14000 (74%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 10:53:53) [GET]
+  Session ID: ad87a01dcf34748e0eaf194a9a5aa0fa
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+Completed in 0.14100 (7 reqs/sec) | Rendering: 0.07800 (55%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#new (for 127.0.0.1 at 2010-03-30 10:53:55) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"new", "controller"=>"books"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering books/new
+Rendered books/_form (0.03100)
+Completed in 0.26600 (3 reqs/sec) | Rendering: 0.06300 (23%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/new]
+
+
+Processing BooksController#new (for 127.0.0.1 at 2010-03-30 10:55:41) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"new", "controller"=>"books"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering books/new
+Rendered books/_form (0.03100)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.04700 (37%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/new]
+
+
+Processing BooksController#create (for 127.0.0.1 at 2010-03-30 10:55:44) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"commit"=>"GO", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"create", "controller"=>"books", "book"=>{"photo"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/CGI.288.13>, "isbn"=>"123-123-145-3", "title"=>"How to pao MM", "page_count"=>"111", "price"=>"250", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"5", "published_at(3i)"=>"30", "blurb"=>"For test", "published_at(4i)"=>"10", "published_at(5i)"=>"53"}}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn = '123-123-145-3') LIMIT 1[0m
+  [4;35;1mBook Create (0.000000)[0m   [0mINSERT INTO books ("isbn", "photo_file_name", "photo_file_size", "updated_at", "page_count", "price", "title", "photo_updated_at", "photo_content_type", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-123-145-3', 'a.jpg', 20902, '2010-03-30 10:55:47', 111, 250.0, 'How to pao MM', '2010-03-30 10:55:44', 'image/jpeg', '2010-03-30 10:53:00', 5, 'For test', '2010-03-30 10:55:47')[0m
+[paperclip] Saving attachments.
+[paperclip] saving C:/RBOR/emp/public/system/photos/7/small/a.jpg
+[paperclip] saving C:/RBOR/emp/public/system/photos/7/original/a.jpg
+Redirected to http://localhost:3000/books/7
+Completed in 2.54700 (0 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/books]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 10:55:47) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiI0Jvb2sgd2FzIHN1Y2Nlc3NmdWxseSBjcmVhdGVk%0ALgY6CkB1c2VkewY7BlQ6DGNzcmZfaWQiJTM4MjJiZWU5MjQ2Mzc1YzNkOWNi%0ANDVmZDQ2N2ZiZTc2--448e4e285edb0dfd1ae3df5e299a3cf70512dca3
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 7) [0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03200 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/7]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 10:55:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+Completed in 0.23400 (4 reqs/sec) | Rendering: 0.03100 (13%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#edit (for 127.0.0.1 at 2010-03-30 10:55:55) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"edit", "id"=>"7", "controller"=>"books"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 7) [0m
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.04700 (37%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/7/edit]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 10:56:40) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#edit (for 127.0.0.1 at 2010-03-30 10:56:42) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"edit", "id"=>"6", "controller"=>"books"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 6) [0m
+Rendering template within layouts/application
+Rendering books/edit
+Rendered books/_form (0.01500)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.04700 (37%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/6/edit]
+
+
+Processing BooksController#edit (for 127.0.0.1 at 2010-03-30 10:56:47) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"edit", "id"=>"7", "controller"=>"books"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.016000)[0m   [0;1mSELECT * FROM publishers [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 7) [0m
+Rendering template within layouts/application
+Rendering books/edit
+Rendered books/_form (0.01600)
+Completed in 0.21800 (4 reqs/sec) | Rendering: 0.04600 (21%) | DB: 0.01600 (7%) | 200 OK [http://localhost/books/7/edit]
+
+
+Processing BooksController#edit (for 127.0.0.1 at 2010-03-30 10:56:51) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"edit", "id"=>"4", "controller"=>"books"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 4) [0m
+Rendering template within layouts/application
+Rendering books/edit
+Rendered books/_form (0.03100)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.04700 (37%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/4/edit]
+
+
+Processing BooksController#edit (for 127.0.0.1 at 2010-03-30 10:56:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"edit", "id"=>"6", "controller"=>"books"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 6) [0m
+Rendering template within layouts/application
+Rendering books/edit
+Rendered books/_form (0.01600)
+Completed in 0.11000 (9 reqs/sec) | Rendering: 0.03200 (29%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/6/edit]
+
+
+Processing BooksController#edit (for 127.0.0.1 at 2010-03-30 10:57:02) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"edit", "id"=>"7", "controller"=>"books"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 7) [0m
+Rendering template within layouts/application
+Rendering books/edit
+Rendered books/_form (0.01600)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.04700 (37%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/7/edit]
+
+
+Processing BooksController#update (for 127.0.0.1 at 2010-03-30 10:57:15) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"commit"=>"GO", "_method"=>"put", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"update", "id"=>"7", "controller"=>"books", "book"=>{"photo"=>"", "isbn"=>"123-123-145-3", "title"=>"How to pao MM", "page_count"=>"111", "price"=>"250.0", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"5", "published_at(3i)"=>"30", "blurb"=>"For test to my dear friend!", "published_at(4i)"=>"10", "published_at(5i)"=>"53"}}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 7) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-145-3' AND books.id <> 7) LIMIT 1[0m
+  [4;36;1mBook Update (0.000000)[0m   [0;1mUPDATE books SET "created_at" = '2010-03-30 10:55:47', "photo_content_type" = 'image/jpeg', "page_count" = 111, "publisher_id" = 5, "photo_file_name" = 'a.jpg', "isbn" = '123-123-145-3', "title" = 'How to pao MM', "published_at" = '2010-03-30 10:53:00', "photo_updated_at" = '2010-03-30 10:55:44', "photo_file_size" = 20902, "blurb" = 'For test to my dear friend!', "price" = 250.0, "updated_at" = '2010-03-30 10:57:15' WHERE "id" = 7[0m
+[paperclip] Saving attachments.
+Redirected to http://localhost:3000/books/7
+Completed in 0.31300 (3 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/books/7]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 10:57:16) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsGOgtub3RpY2UiI0Jvb2sgd2FzIHN1Y2Nlc3NmdWxseSB1cGRhdGVk%0ALgY6CkB1c2VkewY7BlQ6DGNzcmZfaWQiJTM4MjJiZWU5MjQ2Mzc1YzNkOWNi%0ANDVmZDQ2N2ZiZTc2--aa6ac34f6da3edb84f44aff2e80f0d0875928d8f
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 7) [0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/7]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 10:57:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 11:23:35) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mSQL (0.000000)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+NoMethodError (undefined method `paginate' for #<Class:0x63b4b28>):
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1532:in `method_missing'
+    /app/controllers/books_controller.rb:8:in `index'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 11:24:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;35;1mSQL (0.000000)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+NoMethodError (undefined method `paginate' for #<Class:0x7001c00>):
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1532:in `method_missing'
+    /app/controllers/books_controller.rb:8:in `index'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    C:/Ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 11:28:14) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.016000)[0m   [0;1mSELECT * FROM books LIMIT 4 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+Completed in 0.37500 (2 reqs/sec) | Rendering: 0.12500 (33%) | DB: 0.01600 (4%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#new (for 127.0.0.1 at 2010-03-30 11:28:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"new", "controller"=>"books"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+  [4;35;1mPublisher Load (0.016000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering books/new
+Rendered books/_form (0.04700)
+Completed in 0.23500 (4 reqs/sec) | Rendering: 0.09400 (39%) | DB: 0.01600 (6%) | 200 OK [http://localhost/books/new]
+
+
+Processing BooksController#create (for 127.0.0.1 at 2010-03-30 11:28:57) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"commit"=>"GO", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"create", "controller"=>"books", "book"=>{"photo"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/CGI.912.13>, "isbn"=>"124-123-145-0", "title"=>"Fan ye", "page_count"=>"100", "price"=>"144", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"1", "published_at(3i)"=>"30", "blurb"=>"New page for new life~", "published_at(4i)"=>"11", "published_at(5i)"=>"28"}}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '124-123-145-0') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "photo_file_name", "photo_file_size", "updated_at", "page_count", "price", "title", "photo_updated_at", "photo_content_type", "published_at", "publisher_id", "blurb", "created_at") VALUES('124-123-145-0', 'trlpt.gif', 1349953, '2010-03-30 11:28:59', 100, 144.0, 'Fan ye', '2010-03-30 11:28:58', 'image/gif', '2010-03-30 11:28:00', 1, 'New page for new life~', '2010-03-30 11:28:59')[0m
+[paperclip] Saving attachments.
+[paperclip] saving C:/RBOR/emp/public/system/photos/8/original/trlpt.gif
+[paperclip] saving C:/RBOR/emp/public/system/photos/8/small/trlpt.gif
+Redirected to http://localhost:3000/books/8
+Completed in 1.87500 (0 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/books]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 11:29:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiNCb29rIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G%0AOgpAdXNlZHsGOwdU--199af3ddcf70bbde211afdf75279b2cb307dc7d7
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;35;1mBook Load (0.015000)[0m   [0mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.04700 (37%) | DB: 0.01500 (12%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 11:29:05) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.015000)[0m   [0;1mSELECT * FROM books LIMIT 4 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:25)
+Completed in 0.46800 (2 reqs/sec) | Rendering: 0.10900 (23%) | DB: 0.01500 (3%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 11:29:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books", "page"=>"2"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books LIMIT 4 OFFSET 4[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:25)
+Completed in 0.17200 (5 reqs/sec) | Rendering: 0.10900 (63%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books?page=2]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 11:29:14) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"index", "controller"=>"books", "page"=>"1"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books LIMIT 4 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:25)
+Completed in 0.18700 (5 reqs/sec) | Rendering: 0.09300 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books?page=1]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 11:29:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books", "page"=>"1"}
+  [4;36;1mBook Load (0.031000)[0m   [0;1mSELECT * FROM books LIMIT 4 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:25)
+Completed in 0.37500 (2 reqs/sec) | Rendering: 0.17200 (45%) | DB: 0.03100 (8%) | 200 OK [http://localhost/books?page=1]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 12:12:15) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"index", "controller"=>"books", "page"=>"1"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.20300 (4 reqs/sec) | Rendering: 0.14100 (69%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books?page=1]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:12:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.06300 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:12:36) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;35;1mBook Load (0.015000)[0m   [0mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.04700 (37%) | DB: 0.01500 (12%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:13:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.04700 (37%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:13:55) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+Completed in 0.21900 (4 reqs/sec) | Rendering: 0.04700 (21%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:14:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.016000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.17200 (5 reqs/sec) | Rendering: 0.07800 (45%) | DB: 0.01600 (9%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:15:51) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.17200 (5 reqs/sec) | Rendering: 0.09400 (54%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:16:02) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.17200 (5 reqs/sec) | Rendering: 0.09300 (54%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:17:40) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.17200 (5 reqs/sec) | Rendering: 0.09400 (54%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:19:36) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.39100 (2 reqs/sec) | Rendering: 0.20400 (52%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:34:23) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5%0AY2I0NWZkNDY3ZmJlNzY%3D--731105143ccab50d5967842af5582abf5aeb1171
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.32800 (3 reqs/sec) | Rendering: 0.26600 (81%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 12:34:31) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.18800 (5 reqs/sec) | Rendering: 0.12500 (66%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:34:34) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;36;1mBook Load (0.015000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.20300 (4 reqs/sec) | Rendering: 0.07800 (38%) | DB: 0.01500 (7%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#edit (for 127.0.0.1 at 2010-03-30 12:34:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"edit", "id"=>"8", "controller"=>"books"}
+  [4;36;1mAuthor Load (0.016000)[0m   [0;1mSELECT * FROM authors [0m
+  [4;35;1mPublisher Load (0.015000)[0m   [0mSELECT * FROM publishers [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/edit
+Rendered books/_form (0.07800)
+Completed in 0.25000 (4 reqs/sec) | Rendering: 0.11000 (44%) | DB: 0.03100 (12%) | 200 OK [http://localhost/books/8/edit]
+
+
+Processing BooksController#update (for 127.0.0.1 at 2010-03-30 12:36:12) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"commit"=>"GO", "_method"=>"put", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"update", "id"=>"8", "controller"=>"books", "book"=>{"photo"=>"", "isbn"=>"124-123-145-0", "title"=>"Fan ye", "page_count"=>"100", "price"=>"144.0", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"1", "published_at(3i)"=>"30", "blurb"=>"<p><span style=\"font-size: medium;\"><span style=\"font-family: tahoma,arial,helvetica,sans-serif;\"><strong>New page for new life~<img title=\"哭泣\" src=\"http://localhost:3000/javascripts/tiny_mce/plugins/emotions/img/smiley-cry.gif\" border=\"0\" alt=\"哭泣\" /><img src=\"/images/mm.jpg\" alt=\"\" /></strong></span></span></p>", "published_at(4i)"=>"11", "published_at(5i)"=>"28"}}
+  [4;35;1mBook Load (0.015000)[0m   [0mSELECT * FROM books WHERE (books."id" = 8) [0m
+  [4;36;1mPublisher Load (0.015000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '124-123-145-0' AND books.id <> 8) LIMIT 1[0m
+  [4;36;1mBook Update (0.000000)[0m   [0;1mUPDATE books SET "created_at" = '2010-03-30 11:28:59', "photo_content_type" = 'image/gif', "page_count" = 100, "publisher_id" = 1, "photo_file_name" = 'trlpt.gif', "isbn" = '124-123-145-0', "title" = 'Fan ye', "published_at" = '2010-03-30 11:28:00', "photo_updated_at" = '2010-03-30 11:28:58', "photo_file_size" = 1349953, "blurb" = '<p><span style="font-size: medium;"><span style="font-family: tahoma,arial,helvetica,sans-serif;"><strong>New page for new life~<img title="哭泣" src="http://localhost:3000/javascripts/tiny_mce/plugins/emotions/img/smiley-cry.gif" border="0" alt="哭泣" /><img src="/images/mm.jpg" alt="" /></strong></span></span></p>', "price" = 144.0, "updated_at" = '2010-03-30 12:36:12' WHERE "id" = 8[0m
+[paperclip] Saving attachments.
+Redirected to http://localhost:3000/books/8
+Completed in 0.18700 (5 reqs/sec) | DB: 0.03000 (16%) | 302 Found [http://localhost/books/8]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:36:13) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiNCb29rIHdhcyBzdWNjZXNzZnVsbHkgdXBkYXRlZC4G%0AOgpAdXNlZHsGOwdU--f139d693ce8e8eee763684c9051a35e05134ba8a
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.06200 (56%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#edit (for 127.0.0.1 at 2010-03-30 12:36:29) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"edit", "id"=>"8", "controller"=>"books"}
+  [4;35;1mAuthor Load (0.016000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/edit
+Rendered books/_form (0.09300)
+Completed in 0.28100 (3 reqs/sec) | Rendering: 0.14100 (50%) | DB: 0.01600 (5%) | 200 OK [http://localhost/books/8/edit]
+
+
+Processing BooksController#update (for 127.0.0.1 at 2010-03-30 12:36:36) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"commit"=>"GO", "_method"=>"put", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"update", "id"=>"8", "controller"=>"books", "book"=>{"photo"=>"", "isbn"=>"124-123-145-0", "title"=>"Fan ye", "page_count"=>"100", "price"=>"144.0", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"1", "published_at(3i)"=>"30", "blurb"=>"<p><span style=\"font-size: medium;\"><span style=\"font-family: tahoma,arial,helvetica,sans-serif;\"><strong>New page for new life~<img title=\"哭泣\" src=\"http://localhost:3000/javascripts/tiny_mce/plugins/emotions/img/smiley-cry.gif\" border=\"0\" alt=\"哭泣\" /></strong></span></span></p>", "published_at(4i)"=>"11", "published_at(5i)"=>"28"}}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn = '124-123-145-0' AND books.id <> 8) LIMIT 1[0m
+  [4;35;1mBook Update (0.000000)[0m   [0mUPDATE books SET "created_at" = '2010-03-30 11:28:59', "photo_content_type" = 'image/gif', "page_count" = 100, "publisher_id" = 1, "photo_file_name" = 'trlpt.gif', "isbn" = '124-123-145-0', "title" = 'Fan ye', "published_at" = '2010-03-30 11:28:00', "photo_updated_at" = '2010-03-30 11:28:58', "photo_file_size" = 1349953, "blurb" = '<p><span style="font-size: medium;"><span style="font-family: tahoma,arial,helvetica,sans-serif;"><strong>New page for new life~<img title="哭泣" src="http://localhost:3000/javascripts/tiny_mce/plugins/emotions/img/smiley-cry.gif" border="0" alt="哭泣" /></strong></span></span></p>', "price" = 144.0, "updated_at" = '2010-03-30 12:36:36' WHERE "id" = 8[0m
+[paperclip] Saving attachments.
+Redirected to http://localhost:3000/books/8
+Completed in 0.21800 (4 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/books/8]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:36:37) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiNCb29rIHdhcyBzdWNjZXNzZnVsbHkgdXBkYXRlZC4G%0AOgpAdXNlZHsGOwdU--f139d693ce8e8eee763684c9051a35e05134ba8a
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.06200 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 12:37:22) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.016000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.18700 (5 reqs/sec) | Rendering: 0.10900 (58%) | DB: 0.01600 (8%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:01:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.18800 (5 reqs/sec) | Rendering: 0.15600 (82%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 14:01:36) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#new (for 127.0.0.1 at 2010-03-30 14:01:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"new", "controller"=>"books"}
+  [4;36;1mAuthor Load (0.016000)[0m   [0;1mSELECT * FROM authors [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering books/new
+Rendered books/_form (0.01500)
+Completed in 0.34400 (2 reqs/sec) | Rendering: 0.04700 (13%) | DB: 0.01600 (4%) | 200 OK [http://localhost/books/new]
+
+
+Processing BooksController#create (for 127.0.0.1 at 2010-03-30 14:06:27) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"commit"=>"GO", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"create", "controller"=>"books", "book"=>{"photo"=>#<ActionController::UploadedStringIO:0x6f3be38>, "isbn"=>"124-123-145-1", "title"=>"FaceBook", "page_count"=>"284", "price"=>"29.80", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"1", "published_at(3i)"=>"30", "blurb"=>"<p><span style=\"background-color: #ffff00;\"><strong>一群IT小小鸟&mdash;&mdash;<br /> 来自十几所院校，或男生，或女生；或科班，或半路转行。<br /> 分布在不同的公司，或外企，或国企，或民企，老板有 土有洋。<br /> 有失意，有快意；有泪水，有欢笑。在失望中追求希望，在迷茫中辨别方向。<br /> 他们用自己的成长故事，告诉在校的师弟师妹们：<br /> 青春太宝贵，千万别浪费；要想不浪费，万事早准备。</strong></span></p>", "published_at(4i)"=>"14", "published_at(5i)"=>"01"}}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '124-123-145-1') LIMIT 1[0m
+  [4;36;1mBook Create (0.015000)[0m   [0;1mINSERT INTO books ("isbn", "photo_file_name", "photo_file_size", "updated_at", "page_count", "price", "title", "photo_updated_at", "photo_content_type", "published_at", "publisher_id", "blurb", "created_at") VALUES('124-123-145-1', 'hero.png', 7066, '2010-03-30 14:06:28', 284, 29.8, 'FaceBook', '2010-03-30 14:06:27', 'image/png', '2010-03-30 14:01:00', 1, '<p><span style="background-color: #ffff00;"><strong>一群IT小小鸟&mdash;&mdash;<br /> 来自十几所院校，或男生，或女生；或科班，或半路转行。<br /> 分布在不同的公司，或外企，或国企，或民企，老板有 土有洋。<br /> 有失意，有快意；有泪水，有欢笑。在失望中追求希望，在迷茫中辨别方向。<br /> 他们用自己的成长故事，告诉在校的师弟师妹们：<br /> 青春太宝贵，千万别浪费；要想不浪费，万事早准备。</strong></span></p>', '2010-03-30 14:06:28')[0m
+[paperclip] Saving attachments.
+[paperclip] saving C:/RBOR/emp/public/system/photos/9/original/hero.png
+[paperclip] saving C:/RBOR/emp/public/system/photos/9/small/hero.png
+Redirected to http://localhost:3000/books/9
+Completed in 1.21900 (0 reqs/sec) | DB: 0.01500 (1%) | 302 Found [http://localhost/books]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 14:06:28) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiNCb29rIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G%0AOgpAdXNlZHsGOwdU--199af3ddcf70bbde211afdf75279b2cb307dc7d7
+  Parameters: {"action"=>"show", "id"=>"9", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 9) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.07800 (71%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/9]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:06:35) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;35;1mBook Load (0.015000)[0m   [0mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.06300 (57%) | DB: 0.01500 (13%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#new (for 127.0.0.1 at 2010-03-30 14:06:39) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"new", "controller"=>"books"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering books/new
+Rendered books/_form (0.03100)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.03100 (28%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/new]
+
+
+Processing BooksController#create (for 127.0.0.1 at 2010-03-30 14:08:14) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"commit"=>"GO", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"create", "controller"=>"books", "book"=>{"photo"=>#<ActionController::UploadedStringIO:0x7020358>, "isbn"=>"124-123-145-2", "title"=>"變成主機", "page_count"=>"217", "price"=>"28.0", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"4", "published_at(3i)"=>"30", "blurb"=>"<p><span class=\"short\">如果让程序员们列出他们最喜欢的书籍，Jon  Bentley的《编程珠玑》常常可以位于经典之列。如同珍珠来自于曾经折磨牡蛎的沙粒，程序设计的珍珠也来自曾经折磨程序员的实际问题。Bentley 的珍珠超出了可靠工程学的范畴、在洞察力和创造力的王国中为那些恼人的问题提供了独特而巧妙的解决方案。通过一些精心设计的有趣而且颇具指导意义的程序， 书中充满了对实用程序设计技巧及基本设计原则的清晰而机智的描述。因此，《编程珠玑》得到各个层次程序员的青睐并不让人感觉意外。<br /> <br /> Bentley彻底更新了第一版中的大多数素材，以反映当今的程序设计方法和环境。此外还增加了关于以下三个方面的新内容：<br /> <br /> &middot;测试、调试和定时。<br /> <br /> &middot;集合表示。<br /> <br /> &middot;字符串问题。<br /> <br /> 原来的所有程序都重新进行了改写，并生成了等量的新代码。您可以从本书网站获取所有程序的... <a class=\"a_show_full j\" href=\"javascript:void(0)\">(展开全部)</a></span> <span class=\"hidden all\"> 如果让程序员们列出他们最喜欢的书籍，Jon  Bentley的《编程珠玑》常常可以位于经典之列。如同珍珠来自于曾经折磨牡蛎的沙粒，程序设计的珍珠也来自曾经折磨程序员的实际问题。Bentley 的珍珠超出了可靠工程学的范畴、在洞察力和创造力的王国中为那些恼人的问题提供了独特而巧妙的解决方案。通过一些精心设计的有趣而且颇具指导意义的程序， 书中充满了对实用程序设计技巧及基本设计原则的清晰而机智的描述。因此，《编程珠玑》得到各个层次程序员的青睐并不让人感觉意外。<br /> <br /> Bentley彻底更新了第一版中的大多数素材，以反映当今的程序设计方法和环境。此外还增加了关于以下三个方面的新内容：<br /> <br /> &middot;测试、调试和定时。<br /> <br /> &middot;集合表示。<br /> <br /> &middot;字符串问题。<br /> <br /> 原来的所有程序都重新进行了改写，并生成了等量的新代码。您可以从本书网站获取所有程序的C或C++实现。</span></p>", "published_at(4i)"=>"14", "published_at(5i)"=>"06"}}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '124-123-145-2') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "photo_file_name", "photo_file_size", "updated_at", "page_count", "price", "title", "photo_updated_at", "photo_content_type", "published_at", "publisher_id", "blurb", "created_at") VALUES('124-123-145-2', 'Socrate.png', 5979, '2010-03-30 14:08:15', 217, 28.0, '變成主機', '2010-03-30 14:08:15', 'image/png', '2010-03-30 14:06:00', 4, '<p><span class="short">如果让程序员们列出他们最喜欢的书籍，Jon Bentley的《编程珠玑》常常可以位于经典之列。如同珍珠来自于曾经折磨牡蛎的沙粒，程序设计的珍珠也来自曾经折磨程序员的实际问题。Bentley 的珍珠超出了可靠工程学的范畴、在洞察力和创造力的王国中为那些恼人的问题提供了独特而巧妙的解决方案。通过一些精心设计的有趣而且颇具指导意义的程序， 书中充满了对实用程序设计技巧及基本设计原则的清晰而机智的描述。因此，《编程珠玑》得到各个层次程序员的青睐并不让人感觉意外。<br /> <br /> Bentley彻底更新了第一版中的大多数素材，以反映当今的程序设计方法和环境。此外还增加了关于以下三个方面的新内容：<br /> <br /> &middot;测试、调试和定时。<br /> <br /> &middot;集合表示。<br /> <br /> &middot;字符串问题。<br /> <br /> 原来的所有程序都重新进行了改写，并生成了等量的新代码。您可以从本书网站获取所有程序的... <a class="a_show_full j" href="javascript:void(0)">(展开全部)</a></span> <span class="hidden all"> 如果让程序员们列出他们最喜欢的书籍，Jon Bentley的《编程珠玑》常常可以位于经典之列。如同珍珠来自于曾经折磨牡蛎的沙粒，程序设计的珍珠也来自曾经折磨程序员的实际问题。Bentley 的珍珠超出了可靠工程学的范畴、在洞察力和创造力的王国中为那些恼人的问题提供了独特而巧妙的解决方案。通过一些精心设计的有趣而且颇具指导意义的程序， 书中充满了对实用程序设计技巧及基本设计原则的清晰而机智的描述。因此，《编程珠玑》得到各个层次程序员的青睐并不让人感觉意外。<br /> <br /> Bentley彻底更新了第一版中的大多数素材，以反映当今的程序设计方法和环境。此外还增加了关于以下三个方面的新内容：<br /> <br /> &middot;测试、调试和定时。<br /> <br /> &middot;集合表示。<br /> <br /> &middot;字符串问题。<br /> <br /> 原来的所有程序都重新进行了改写，并生成了等量的新代码。您可以从本书网站获取所有程序的C或C++实现。</span></p>', '2010-03-30 14:08:15')[0m
+[paperclip] Saving attachments.
+[paperclip] saving C:/RBOR/emp/public/system/photos/10/original/Socrate.png
+[paperclip] saving C:/RBOR/emp/public/system/photos/10/small/Socrate.png
+Redirected to http://localhost:3000/books/10
+Completed in 0.71800 (1 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/books]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 14:08:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiNCb29rIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G%0AOgpAdXNlZHsGOwdU--199af3ddcf70bbde211afdf75279b2cb307dc7d7
+  Parameters: {"action"=>"show", "id"=>"10", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 10) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+Completed in 0.09300 (10 reqs/sec) | Rendering: 0.04600 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/10]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:08:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;35;1mBook Load (0.015000)[0m   [0mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.016000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.06200 (49%) | DB: 0.03100 (24%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:09:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;35;1mBook Load (0.016000)[0m   [0mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+Completed in 0.11000 (9 reqs/sec) | Rendering: 0.06300 (57%) | DB: 0.01600 (14%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:09:37) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.06200 (56%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:09:40) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"sort_by"=>"title", "action"=>"index", "controller"=>"books"}
+  [4;35;1mBook Load (0.031000)[0m   [0mSELECT * FROM books ORDER BY title LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+Completed in 0.34400 (2 reqs/sec) | Rendering: 0.26600 (77%) | DB: 0.03100 (9%) | 200 OK [http://localhost/books?sort_by=title]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:09:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"sort_by"=>"title", "action"=>"index", "controller"=>"books"}
+  [4;35;1mBook Load (0.016000)[0m   [0mSELECT * FROM books ORDER BY title LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.07800 (62%) | DB: 0.01600 (12%) | 200 OK [http://localhost/books?sort_by=title]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:09:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"sort_by"=>"publisher_id", "action"=>"index", "controller"=>"books"}
+  [4;35;1mBook Load (0.015000)[0m   [0mSELECT * FROM books ORDER BY publisher_id LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mPublisher Load (0.016000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.04700 (43%) | DB: 0.03100 (28%) | 200 OK [http://localhost/books?sort_by=publisher_id]
+
+
+Processing BooksController#new (for 127.0.0.1 at 2010-03-30 14:09:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"new", "controller"=>"books"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering books/new
+Rendered books/_form (0.03100)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.04600 (36%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/new]
+
+
+Processing BooksController#create (for 127.0.0.1 at 2010-03-30 14:10:41) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"commit"=>"GO", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"create", "controller"=>"books", "book"=>{"photo"=>#<ActionController::UploadedStringIO:0x6f21fd8>, "isbn"=>"124-123-145-3", "title"=>"觀止", "page_count"=>"203", "price"=>"42", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"5", "published_at(3i)"=>"30", "blurb"=>"<p><span class=\"short\">沉寂15年，首次与中国读者见面，揭秘密世界巨头微软公司成功背后鲜为人知的秘密！<br /> 如其说这是一本 微软的成功史，还不如说他是某一个人的自传。大家都可能会认为是盖茨创造了微软，可是看完这本书，你会发现在微软还有一个人比盖茨更重要。而这个人却很少 让人中国读者知道。<br /> 作为一名管理者，从本书中您可以&ldquo;偷窥&rdquo;到微软公司的管理精华；<br /> 作为一名创业者，从本书中您可以找到创业的激 情与灵感；<br /> 作为一名刚出校园的学生，从本书中您可以看到你未来职业的高标准要求；<br /> 作为一名IT从业人员，相信本书是您工作之余的 营养大餐，让你一睹微软与Novell的那场决定命运的生死大战；<br /> 作为一位普通阅读者，相信本书让您提前领略WINDOWS  7操作系统到来前的技术内幕（微软公司将在09年10月份发布最新操作系统Windows 7,来取代Windows Vitsta 以及Windows  XP)</span></p>", "published_at(4i)"=>"14", "published_at(5i)"=>"09"}}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn = '124-123-145-3') LIMIT 1[0m
+  [4;35;1mBook Create (0.016000)[0m   [0mINSERT INTO books ("isbn", "photo_file_name", "photo_file_size", "updated_at", "page_count", "price", "title", "photo_updated_at", "photo_content_type", "published_at", "publisher_id", "blurb", "created_at") VALUES('124-123-145-3', 'firefly-logo.jpg', 2694, '2010-03-30 14:10:42', 203, 42.0, '觀止', '2010-03-30 14:10:41', 'image/jpeg', '2010-03-30 14:09:00', 5, '<p><span class="short">沉寂15年，首次与中国读者见面，揭秘密世界巨头微软公司成功背后鲜为人知的秘密！<br /> 如其说这是一本 微软的成功史，还不如说他是某一个人的自传。大家都可能会认为是盖茨创造了微软，可是看完这本书，你会发现在微软还有一个人比盖茨更重要。而这个人却很少 让人中国读者知道。<br /> 作为一名管理者，从本书中您可以&ldquo;偷窥&rdquo;到微软公司的管理精华；<br /> 作为一名创业者，从本书中您可以找到创业的激 情与灵感；<br /> 作为一名刚出校园的学生，从本书中您可以看到你未来职业的高标准要求；<br /> 作为一名IT从业人员，相信本书是您工作之余的 营养大餐，让你一睹微软与Novell的那场决定命运的生死大战；<br /> 作为一位普通阅读者，相信本书让您提前领略WINDOWS 7操作系统到来前的技术内幕（微软公司将在09年10月份发布最新操作系统Windows 7,来取代Windows Vitsta 以及Windows XP)</span></p>', '2010-03-30 14:10:42')[0m
+[paperclip] Saving attachments.
+[paperclip] saving C:/RBOR/emp/public/system/photos/11/original/firefly-logo.jpg
+[paperclip] saving C:/RBOR/emp/public/system/photos/11/small/firefly-logo.jpg
+Redirected to http://localhost:3000/books/11
+Completed in 0.84300 (1 reqs/sec) | DB: 0.01600 (1%) | 302 Found [http://localhost/books]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 14:10:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiNCb29rIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G%0AOgpAdXNlZHsGOwdU--199af3ddcf70bbde211afdf75279b2cb307dc7d7
+  Parameters: {"action"=>"show", "id"=>"11", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 11) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.04700 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/11]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:10:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.07800 (71%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#new (for 127.0.0.1 at 2010-03-30 14:10:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"new", "controller"=>"books"}
+  [4;35;1mAuthor Load (0.015000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering books/new
+Rendered books/_form (0.01500)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.04700 (37%) | DB: 0.01500 (11%) | 200 OK [http://localhost/books/new]
+
+
+Processing BooksController#create (for 127.0.0.1 at 2010-03-30 14:11:35) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"commit"=>"GO", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"create", "controller"=>"books", "book"=>{"photo"=>#<ActionController::UploadedStringIO:0x702f54c>, "isbn"=>"124-123-145-4", "title"=>"Borland传奇", "page_count"=>"392", "price"=>"28.0", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"1", "published_at(3i)"=>"30", "blurb"=>"<p>本书披露了Borland各个重要产品开发鲜为人知的内幕故事，第一次让读者了解了Borland顶尖技术天才的风采，并展示了在美国软件技术市场上波澜 壮阔、激动人心的技术大战和产品大战，而且从资深技术人员的角度阐述了自己对于软件技术发展各阶段的深刻理解和对未来软件的发展趋势的思考。</p>", "published_at(4i)"=>"14", "published_at(5i)"=>"10"}}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn = '124-123-145-4') LIMIT 1[0m
+  [4;35;1mBook Create (0.015000)[0m   [0mINSERT INTO books ("isbn", "photo_file_name", "photo_file_size", "updated_at", "page_count", "price", "title", "photo_updated_at", "photo_content_type", "published_at", "publisher_id", "blurb", "created_at") VALUES('124-123-145-4', 'facebook.jpg', 4675, '2010-03-30 14:11:36', 392, 28.0, 'Borland传奇', '2010-03-30 14:11:35', 'image/jpeg', '2010-03-30 14:10:00', 1, '<p>本书披露了Borland各个重要产品开发鲜为人知的内幕故事，第一次让读者了解了Borland顶尖技术天才的风采，并展示了在美国软件技术市场上波澜 壮阔、激动人心的技术大战和产品大战，而且从资深技术人员的角度阐述了自己对于软件技术发展各阶段的深刻理解和对未来软件的发展趋势的思考。</p>', '2010-03-30 14:11:36')[0m
+[paperclip] Saving attachments.
+[paperclip] saving C:/RBOR/emp/public/system/photos/12/original/facebook.jpg
+[paperclip] saving C:/RBOR/emp/public/system/photos/12/small/facebook.jpg
+Redirected to http://localhost:3000/books/12
+Completed in 0.68800 (1 reqs/sec) | DB: 0.01500 (2%) | 302 Found [http://localhost/books]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 14:11:36) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiNCb29rIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G%0AOgpAdXNlZHsGOwdU--199af3ddcf70bbde211afdf75279b2cb307dc7d7
+  Parameters: {"action"=>"show", "id"=>"12", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 12) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/12]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:11:41) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.016000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.06200 (56%) | DB: 0.01600 (14%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#new (for 127.0.0.1 at 2010-03-30 14:11:44) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"new", "controller"=>"books"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering books/new
+Rendered books/_form (0.03100)
+Completed in 0.25000 (4 reqs/sec) | Rendering: 0.06300 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/new]
+
+
+Processing BooksController#create (for 127.0.0.1 at 2010-03-30 14:12:21) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"commit"=>"GO", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"create", "controller"=>"books", "book"=>{"photo"=>#<ActionController::UploadedStringIO:0x6f1b28c>, "isbn"=>"124-123-145-5", "title"=>"程序员修炼之道", "page_count"=>"333", "price"=>"48.0", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"4", "published_at(3i)"=>"30", "blurb"=>"<p>《程序员修炼之道》由一系列独立的部分组成，涵盖的主题从个人责任、职业发展，直到用于使代码保持灵活、并且易于改编和复用的各种架构技术，利用许多富有 娱乐性的奇闻轶事、有思想性的例子以及有趣的类比，全面阐释了软件开发的许多不同方面的最佳实践和重大陷阱。无论你是初学者，是有经验的程序员，还是软件 项目经理，本书都适合你阅读。</p>", "published_at(4i)"=>"14", "published_at(5i)"=>"11"}}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '124-123-145-5') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "photo_file_name", "photo_file_size", "updated_at", "page_count", "price", "title", "photo_updated_at", "photo_content_type", "published_at", "publisher_id", "blurb", "created_at") VALUES('124-123-145-5', 'BG.jpg', 4782, '2010-03-30 14:12:21', 333, 48.0, '程序员修炼之道', '2010-03-30 14:12:21', 'image/jpeg', '2010-03-30 14:11:00', 4, '<p>《程序员修炼之道》由一系列独立的部分组成，涵盖的主题从个人责任、职业发展，直到用于使代码保持灵活、并且易于改编和复用的各种架构技术，利用许多富有 娱乐性的奇闻轶事、有思想性的例子以及有趣的类比，全面阐释了软件开发的许多不同方面的最佳实践和重大陷阱。无论你是初学者，是有经验的程序员，还是软件 项目经理，本书都适合你阅读。</p>', '2010-03-30 14:12:21')[0m
+[paperclip] Saving attachments.
+[paperclip] saving C:/RBOR/emp/public/system/photos/13/original/BG.jpg
+[paperclip] saving C:/RBOR/emp/public/system/photos/13/small/BG.jpg
+Redirected to http://localhost:3000/books/13
+Completed in 0.76600 (1 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/books]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 14:12:22) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiNCb29rIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G%0AOgpAdXNlZHsGOwdU--199af3ddcf70bbde211afdf75279b2cb307dc7d7
+  Parameters: {"action"=>"show", "id"=>"13", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 13) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/13]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:12:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.07800 (62%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#new (for 127.0.0.1 at 2010-03-30 14:12:27) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"new", "controller"=>"books"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering books/new
+Rendered books/_form (0.03100)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.03100 (24%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/new]
+
+
+Processing BooksController#create (for 127.0.0.1 at 2010-03-30 14:13:51) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"commit"=>"GO", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"create", "controller"=>"books", "book"=>{"photo"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/CGI.1788.13>, "isbn"=>"124-123-145-6", "title"=>"原谅我红尘颠倒", "page_count"=>"268", "price"=>"25.0", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"4", "published_at(3i)"=>"30", "blurb"=>"<h2><span style=\"font-size: large;\"><span style=\"font-size: x-large;\">简介 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;</span>&nbsp;</span></h2>\r\n<p><span style=\"font-size: large;\">&nbsp;<span style=\"background-color: #ffff00;\">&nbsp;&nbsp; <span class=\"short\"> 一位来自穷困乡村、穷困家庭的小男 孩，经过自己的勤奋努力，终于完成了父亲的遗愿考上了大学法律专业，毕业之后又在一个经济十分发达的开放城市当上了颇有名气的律师，并且经常在当地的电视 节目频频上镜，是著名法律栏目的主讲嘉宾，要么讲授法律知识，要么解答观众提出的的种种法律疑难，成为该城市的公众人物&hellip;&hellip;然而，就是这样一位事业蒸蒸日 上、金钱名利俱全的律师，最后却走上了厌世悲观以致杀人灭尸的犯罪之路&hellip;&hellip;</span></span></span></p>\r\n<p><span style=\"font-size: large;\"><span class=\"short\"><br />&nbsp;&nbsp;&nbsp;&nbsp; 这是慕容雪村的长篇小说《原谅我红尘颠倒》所叙说的一场&ldquo;红尘大 梦&rdquo;，是一个令人颤栗的故事，一个发人深省的故事&hellip;&hellip;罪恶、阴谋、堕落、势利、虚伪、凶残、歹毒、肮脏、矜持、善良、固执&hellip;&hellip;各色人物性格形象万千，栩栩 如生；律师、法官、干警、老板、艺人、电视节目主持人、原告、被告、监狱看守甚至寺庙僧人等等，都在这个错综复杂的故事里活灵活现。他们形象生动，性格迥 异。尤其是那些蝇营狗... <a class=\"a_show_full j\" href=\"javascript:void(0)\">(展开全部)</a></span> <span class=\"hidden all\"> 一位来自穷困乡村、穷困家庭的小男孩，经过自己的勤奋 努力，终于完成了父亲的遗愿考上了大学法律专业，毕业之后又在一个经济十分发达的开放城市当上了颇有名气的律师，并且经常在当地的电视节目频频上镜，是著 名法律栏目的主讲嘉宾，要么讲授法律知识，要么解答观众提出的的种种法律疑难，成为该城市的公众人物&hellip;&hellip;然而，就是这样一位事业蒸蒸日上、金钱名利俱全的 律师，最后却走上了厌世悲观以致杀人灭尸的犯罪之路&hellip;&hellip;</span></span></p>\r\n<p><span style=\"font-size: large;\"><span class=\"hidden all\"><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是慕容雪村的长篇小说《原谅我红尘颠倒》所叙说的一场&ldquo;红尘大梦&rdquo;，是一个令人颤栗 的故事，一个发人深省的故事&hellip;&hellip;罪恶、阴谋、堕落、势利、虚伪、凶残、歹毒、肮脏、矜持、善良、固执&hellip;&hellip;各色人物性格形象万千，栩栩如生；律师、法官、干 警、老板、艺人、电视节目主持人、原告、被告、监狱看守甚至寺庙僧人等等，都在这个错综复杂的故事里活灵活现。他们形象生动，性格迥异。尤其是那些蝇营狗 苟之徒，其德行与嘴脸描绘得是那么地令人憎恶，司法界某些行尸走肉的人性堕落与道德腐化是那样地令人震颤。</span></span></p>", "published_at(4i)"=>"14", "published_at(5i)"=>"12"}}
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn = '124-123-145-6') LIMIT 1[0m
+  [4;35;1mBook Create (0.000000)[0m   [0mINSERT INTO books ("isbn", "photo_file_name", "photo_file_size", "updated_at", "page_count", "price", "title", "photo_updated_at", "photo_content_type", "published_at", "publisher_id", "blurb", "created_at") VALUES('124-123-145-6', 'Socrates.png', 62130, '2010-03-30 14:13:52', 268, 25.0, '原谅我红尘颠倒', '2010-03-30 14:13:51', 'image/png', '2010-03-30 14:12:00', 4, '<h2><span style="font-size: large;"><span style="font-size: x-large;">简介 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;</span>&nbsp;</span></h2>
+<p><span style="font-size: large;">&nbsp;<span style="background-color: #ffff00;">&nbsp;&nbsp; <span class="short"> 一位来自穷困乡村、穷困家庭的小男 孩，经过自己的勤奋努力，终于完成了父亲的遗愿考上了大学法律专业，毕业之后又在一个经济十分发达的开放城市当上了颇有名气的律师，并且经常在当地的电视 节目频频上镜，是著名法律栏目的主讲嘉宾，要么讲授法律知识，要么解答观众提出的的种种法律疑难，成为该城市的公众人物&hellip;&hellip;然而，就是这样一位事业蒸蒸日 上、金钱名利俱全的律师，最后却走上了厌世悲观以致杀人灭尸的犯罪之路&hellip;&hellip;</span></span></span></p>
+<p><span style="font-size: large;"><span class="short"><br />&nbsp;&nbsp;&nbsp;&nbsp; 这是慕容雪村的长篇小说《原谅我红尘颠倒》所叙说的一场&ldquo;红尘大 梦&rdquo;，是一个令人颤栗的故事，一个发人深省的故事&hellip;&hellip;罪恶、阴谋、堕落、势利、虚伪、凶残、歹毒、肮脏、矜持、善良、固执&hellip;&hellip;各色人物性格形象万千，栩栩 如生；律师、法官、干警、老板、艺人、电视节目主持人、原告、被告、监狱看守甚至寺庙僧人等等，都在这个错综复杂的故事里活灵活现。他们形象生动，性格迥 异。尤其是那些蝇营狗... <a class="a_show_full j" href="javascript:void(0)">(展开全部)</a></span> <span class="hidden all"> 一位来自穷困乡村、穷困家庭的小男孩，经过自己的勤奋 努力，终于完成了父亲的遗愿考上了大学法律专业，毕业之后又在一个经济十分发达的开放城市当上了颇有名气的律师，并且经常在当地的电视节目频频上镜，是著 名法律栏目的主讲嘉宾，要么讲授法律知识，要么解答观众提出的的种种法律疑难，成为该城市的公众人物&hellip;&hellip;然而，就是这样一位事业蒸蒸日上、金钱名利俱全的 律师，最后却走上了厌世悲观以致杀人灭尸的犯罪之路&hellip;&hellip;</span></span></p>
+<p><span style="font-size: large;"><span class="hidden all"><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这是慕容雪村的长篇小说《原谅我红尘颠倒》所叙说的一场&ldquo;红尘大梦&rdquo;，是一个令人颤栗 的故事，一个发人深省的故事&hellip;&hellip;罪恶、阴谋、堕落、势利、虚伪、凶残、歹毒、肮脏、矜持、善良、固执&hellip;&hellip;各色人物性格形象万千，栩栩如生；律师、法官、干 警、老板、艺人、电视节目主持人、原告、被告、监狱看守甚至寺庙僧人等等，都在这个错综复杂的故事里活灵活现。他们形象生动，性格迥异。尤其是那些蝇营狗 苟之徒，其德行与嘴脸描绘得是那么地令人憎恶，司法界某些行尸走肉的人性堕落与道德腐化是那样地令人震颤。</span></span></p>', '2010-03-30 14:13:52')[0m
+[paperclip] Saving attachments.
+[paperclip] saving C:/RBOR/emp/public/system/photos/14/original/Socrates.png
+[paperclip] saving C:/RBOR/emp/public/system/photos/14/small/Socrates.png
+Redirected to http://localhost:3000/books/14
+Completed in 0.85900 (1 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/books]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 14:13:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiNCb29rIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G%0AOgpAdXNlZHsGOwdU--199af3ddcf70bbde211afdf75279b2cb307dc7d7
+  Parameters: {"action"=>"show", "id"=>"14", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 14) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.015000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03200 (41%) | DB: 0.01500 (19%) | 200 OK [http://localhost/books/14]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:13:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.015000)[0m   [0;1mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:25)
+Completed in 0.14000 (7 reqs/sec) | Rendering: 0.09400 (67%) | DB: 0.01500 (10%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:15:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"sort_by"=>"isbn", "action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books ORDER BY isbn LIMIT 10 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:25)
+Completed in 0.14100 (7 reqs/sec) | Rendering: 0.07900 (56%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books?sort_by=isbn]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:15:34) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"sort_by"=>"isbn", "action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.015000)[0m   [0;1mSELECT * FROM books ORDER BY isbn LIMIT 10 OFFSET 0[0m
+  [4;35;1mSQL (0.016000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:25)
+Completed in 0.11000 (9 reqs/sec) | Rendering: 0.06300 (57%) | DB: 0.03100 (28%) | 200 OK [http://localhost/books?sort_by=isbn]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:16:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"sort_by"=>"isbn", "action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.015000)[0m   [0;1mSELECT * FROM books ORDER BY isbn LIMIT 10 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:26)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.07800 (62%) | DB: 0.01500 (11%) | 200 OK [http://localhost/books?sort_by=isbn]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:16:16) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"sort_by"=>"isbn", "action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books ORDER BY isbn LIMIT 10 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:26)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.07800 (62%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books?sort_by=isbn]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:16:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"sort_by"=>"isbn", "action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.015000)[0m   [0;1mSELECT * FROM books ORDER BY isbn LIMIT 10 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:24)
+Completed in 0.14100 (7 reqs/sec) | Rendering: 0.07800 (55%) | DB: 0.01500 (10%) | 200 OK [http://localhost/books?sort_by=isbn]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:16:43) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"sort_by"=>"isbn", "action"=>"index", "controller"=>"books", "page"=>"2"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books ORDER BY isbn LIMIT 10 OFFSET 10[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:24)
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.04700 (60%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books?page=2&sort_by=isbn]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:16:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"sort_by"=>"isbn", "action"=>"index", "controller"=>"books", "page"=>"1"}
+  [4;36;1mBook Load (0.016000)[0m   [0;1mSELECT * FROM books ORDER BY isbn LIMIT 10 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:24)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.06300 (50%) | DB: 0.01600 (12%) | 200 OK [http://localhost/books?page=1&sort_by=isbn]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:17:31) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"sort_by"=>"isbn", "action"=>"index", "controller"=>"books", "page"=>"1"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books ORDER BY isbn LIMIT 10 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:24)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.07800 (62%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books?page=1&sort_by=isbn]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:17:44) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"sort_by"=>"isbn", "action"=>"index", "controller"=>"books", "page"=>"1"}
+  [4;36;1mBook Load (0.015000)[0m   [0;1mSELECT * FROM books ORDER BY isbn LIMIT 10 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:24)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.07800 (62%) | DB: 0.01500 (11%) | 200 OK [http://localhost/books?page=1&sort_by=isbn]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 14:30:40) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"show", "id"=>"8", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 8) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03100 (39%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/8]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:31:31) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.015000)[0m   [0;1mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:24)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.07900 (63%) | DB: 0.01500 (12%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#edit (for 127.0.0.1 at 2010-03-30 14:31:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"edit", "id"=>"5", "controller"=>"books"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 5) [0m
+Rendering template within layouts/application
+Rendering books/edit
+Rendered books/_form (0.03200)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.04700 (37%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/5/edit]
+
+
+Processing BooksController#update (for 127.0.0.1 at 2010-03-30 14:31:37) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"commit"=>"GO", "_method"=>"put", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"update", "id"=>"5", "controller"=>"books", "book"=>{"photo"=>"", "isbn"=>"123-123-145-0", "title"=>"Next one", "page_count"=>"30", "price"=>"11.5", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"4", "published_at(3i)"=>"29", "blurb"=>"<p>Tesr</p>", "published_at(4i)"=>"17", "published_at(5i)"=>"49"}}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 5) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-123-145-0' AND books.id <> 5) LIMIT 1[0m
+  [4;36;1mBook Update (0.000000)[0m   [0;1mUPDATE books SET "created_at" = '2010-03-29 17:49:45', "photo_content_type" = 'image/jpeg', "page_count" = 30, "publisher_id" = 4, "photo_file_name" = 'fuckgfw.jpg', "isbn" = '123-123-145-0', "title" = 'Next one', "published_at" = '2010-03-29 17:49:00', "photo_updated_at" = '2010-03-29 17:49:45', "photo_file_size" = 23881, "blurb" = '<p>Tesr</p>', "price" = 11.5, "updated_at" = '2010-03-30 14:31:37' WHERE "id" = 5[0m
+[paperclip] Saving attachments.
+Redirected to http://localhost:3000/books/5
+Completed in 0.20300 (4 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/books/5]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 14:31:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiNCb29rIHdhcyBzdWNjZXNzZnVsbHkgdXBkYXRlZC4G%0AOgpAdXNlZHsGOwdU--f139d693ce8e8eee763684c9051a35e05134ba8a
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 5) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03100 (39%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/5]
+
+
+Processing BooksController#edit (for 127.0.0.1 at 2010-03-30 14:32:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"edit", "id"=>"5", "controller"=>"books"}
+  [4;35;1mAuthor Load (0.000000)[0m   [0mSELECT * FROM authors [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 5) [0m
+Rendering template within layouts/application
+Rendering books/edit
+Rendered books/_form (0.01600)
+Completed in 0.14000 (7 reqs/sec) | Rendering: 0.04700 (33%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/5/edit]
+
+
+Processing BooksController#update (for 127.0.0.1 at 2010-03-30 14:32:37) [PUT]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"commit"=>"GO", "_method"=>"put", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"update", "id"=>"5", "controller"=>"books", "book"=>{"photo"=>"", "isbn"=>"123-123-145-0", "title"=>"Next one", "page_count"=>"30", "price"=>"11.5", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"4", "published_at(3i)"=>"29", "blurb"=>"<p>Tesr</p>", "published_at(4i)"=>"17", "published_at(5i)"=>"49"}}
+  [4;36;1mBook Load (0.016000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 5) [0m
+  [4;35;1mPublisher Load (0.015000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books.isbn = '123-123-145-0' AND books.id <> 5) LIMIT 1[0m
+  [4;35;1mBook Update (0.000000)[0m   [0mUPDATE books SET "created_at" = '2010-03-29 17:49:45', "photo_content_type" = 'image/jpeg', "page_count" = 30, "publisher_id" = 4, "photo_file_name" = 'fuckgfw.jpg', "isbn" = '123-123-145-0', "title" = 'Next one', "published_at" = '2010-03-29 17:49:00', "photo_updated_at" = '2010-03-29 17:49:45', "photo_file_size" = 23881, "blurb" = '<p>Tesr</p>', "price" = 11.5, "updated_at" = '2010-03-30 14:32:37' WHERE "id" = 5[0m
+[paperclip] Saving attachments.
+Redirected to http://localhost:3000/books/5
+Completed in 0.17200 (5 reqs/sec) | DB: 0.03100 (18%) | 302 Found [http://localhost/books/5]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 14:32:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiNCb29rIHdhcyBzdWNjZXNzZnVsbHkgdXBkYXRlZC4G%0AOgpAdXNlZHsGOwdU--f139d693ce8e8eee763684c9051a35e05134ba8a
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 5) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.03200 (41%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/5]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:33:13) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.015000)[0m   [0;1mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:24)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.07800 (62%) | DB: 0.01500 (12%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#new (for 127.0.0.1 at 2010-03-30 14:33:16) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"new", "controller"=>"books"}
+  [4;36;1mAuthor Load (0.000000)[0m   [0;1mSELECT * FROM authors [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers [0m
+Rendering template within layouts/application
+Rendering books/new
+Rendered books/_form (0.03200)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.04700 (37%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/new]
+
+
+Processing BooksController#create (for 127.0.0.1 at 2010-03-30 14:33:52) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"commit"=>"GO", "authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "action"=>"create", "controller"=>"books", "book"=>{"photo"=>#<ActionController::UploadedStringIO:0x6ee37c4>, "isbn"=>"123-120-145-9", "title"=>"Face", "page_count"=>"147", "price"=>"117.5", "published_at(1i)"=>"2010", "published_at(2i)"=>"3", "publisher_id"=>"5", "published_at(3i)"=>"30", "blurb"=>"<p>We&nbsp; 打<span style=\"background-color: #888888;\">死打傷撒打死打傷的asd</span></p>\r\n<p><span style=\"background-color: #888888;\"><br /></span></p>\r\n<p><span style=\"background-color: #888888;\"><br /></span></p>\r\n<p><span style=\"background-color: #888888;\"><br /></span></p>", "published_at(4i)"=>"14", "published_at(5i)"=>"33"}}
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books.isbn = '123-120-145-9') LIMIT 1[0m
+  [4;36;1mBook Create (0.000000)[0m   [0;1mINSERT INTO books ("isbn", "photo_file_name", "photo_file_size", "updated_at", "page_count", "price", "title", "photo_updated_at", "photo_content_type", "published_at", "publisher_id", "blurb", "created_at") VALUES('123-120-145-9', 'rails.png', 1787, '2010-03-30 14:33:53', 147, 117.5, 'Face', '2010-03-30 14:33:52', 'image/png', '2010-03-30 14:33:00', 5, '<p>We&nbsp; 打<span style="background-color: #888888;">死打傷撒打死打傷的asd</span></p>
+<p><span style="background-color: #888888;"><br /></span></p>
+<p><span style="background-color: #888888;"><br /></span></p>
+<p><span style="background-color: #888888;"><br /></span></p>', '2010-03-30 14:33:53')[0m
+[paperclip] Saving attachments.
+[paperclip] saving C:/RBOR/emp/public/system/photos/15/original/rails.png
+[paperclip] saving C:/RBOR/emp/public/system/photos/15/small/rails.png
+Redirected to http://localhost:3000/books/15
+Completed in 0.71900 (1 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/books]
+
+
+Processing BooksController#show (for 127.0.0.1 at 2010-03-30 14:33:53) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7BjoLbm90aWNlIiNCb29rIHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G%0AOgpAdXNlZHsGOwdU--199af3ddcf70bbde211afdf75279b2cb307dc7d7
+  Parameters: {"action"=>"show", "id"=>"15", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books WHERE (books."id" = 15) [0m
+Rendering template within layouts/application
+Rendering books/show
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+Completed in 0.25000 (4 reqs/sec) | Rendering: 0.17200 (68%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books/15]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:33:57) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:24)
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.07800 (62%) | DB: 0.00000 (0%) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:33:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books", "page"=>"2"}
+  [4;35;1mBook Load (0.000000)[0m   [0mSELECT * FROM books LIMIT 10 OFFSET 10[0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mPublisher Load (0.016000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:24)
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.04700 (50%) | DB: 0.01600 (17%) | 200 OK [http://localhost/books?page=2]
+
+
+Processing BooksController#destroy (for 127.0.0.1 at 2010-03-30 14:34:04) [DELETE]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"authenticity_token"=>"87d8ab8cdbedff78e3547f7c66b81eca8d983f2d", "_method"=>"delete", "action"=>"destroy", "id"=>"15", "controller"=>"books"}
+  [4;36;1mBook Load (0.000000)[0m   [0;1mSELECT * FROM books WHERE (books."id" = 15) [0m
+[paperclip] Deleting attachments.
+[paperclip] deleting C:/RBOR/emp/public/system/photos/15/original/rails.png
+[paperclip] deleting C:/RBOR/emp/public/system/photos/15/small/rails.png
+  [4;35;1mBook Destroy (0.000000)[0m   [0m DELETE FROM books
+ WHERE "id" = 15
+[0m
+Redirected to http://localhost:3000/books
+Completed in 0.14000 (7 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/books/15]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2010-03-30 14:34:04) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMzgyMmJlZTkyNDYzNzVjM2Q5Y2I0NWZkNDY3ZmJl%0ANzYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--aebd5e5b15dec7226070d9f03e68038cf624626a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.015000)[0m   [0;1mSELECT * FROM books LIMIT 10 OFFSET 0[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT count(*) AS count_all FROM books [0m
+Rendering template within layouts/application
+Rendering books/index
+  [4;36;1mPublisher Load (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mPublisher Load (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 5) [0m
+  [4;36;1mCACHE (0.000000)[0m   [0;1mSELECT * FROM publishers WHERE (publishers."id" = 1) [0m
+  [4;35;1mCACHE (0.000000)[0m   [0mSELECT * FROM publishers WHERE (publishers."id" = 4) [0m
+DEPRECATION WARNING: WillPaginate: :prev_label view parameter is now :previous_label; the old name has been deprecated  See http://www.rubyonrails.org/deprecation for details. (called from _run_erb_47app47views47books47index46html46erb at C:/RBOR/emp/app/views/books/index.html.erb:24)
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.06200 (56%) | DB: 0.01500 (13%) | 200 OK [http://localhost/books]

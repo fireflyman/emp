@@ -1,43 +1,37 @@
-<p>
-  <b>Title:</b>
-  <%=h @book.title %>
-</p>
+<dl>
 
-<p>
-  <b>Publisher:</b>
-  <%=h @book.publisher_id %>
-</p>
+  <dt>Title:</dt>
+  <dd><%= @book.title %><dd>
 
-<p>
-  <b>Published at:</b>
-  <%=h @book.published_at %>
-</p>
+  <dt>Publisher:</dt>
+  <dd><%= @book.publisher.name %></dd>
 
-<p>
-  <b>Isbn:</b>
-  <%=h @book.isbn %>
-</p>
+  <dt>Published at:</dt>
+  <dd><%= @book.published_at.strftime("%m/%d/%Y at %I:%M%p") %></dd>
 
-<p>
-  <b>Blurb:</b>
-  <%=h @book.blurb %>
-</p>
+  <dt>ISBN</dt>
+  <dd><%= @book.isbn %></dd>
 
-<p>
-  <b>Page count:</b>
-  <%=h @book.page_count %>
-</p>
+  <dt>Blurb</dt>
+  <dd><%= @book.blurb %></dd>
 
-<p>
-  <b>Price:</b>
-  <%=h @book.price %>
-</p>
+  <dt>Page count</dt>
+  <dd><%= @book.page_count %></dd>
 
- <p>
- <b>Small Photo:</b>
-</p>
-<%= image_tag @book.photo.url(:small) %>  
+  <dt>Price:</dt>
+  <dd><%=h @book.price %></dd>
+
+  <dt>Small Photo:</dt>
+  <dd><%= image_tag @book.photo.url(:small) %></dd>  
+  <script type="text/javascript">  
+   fix_image_size($$('div#news_body img'), 700);  
+  </script>  
+
+</dl>
+
 <br />
+
+
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <%= link_to 'Back', books_path %>

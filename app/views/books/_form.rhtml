@@ -1,41 +1,47 @@
 <%= error_messages_for 'book' %>
 
-<p><label for="book_title">Title</label><br/>
-<%= text_field 'book', 'title' %></p>
-
-<p><label for="book_publisher">Publisher</label><br/>
-<%= collection_select :book, :publisher_id, @publishers, :id, :name %></p>
-
-<p><label for="book[author_ids][]">Authors</label><br/>
-<%= select_tag 'book[author_ids][]',
-      options_from_collection_for_select(
-      @authors, 
-      :id, 
-      :name, 
-      @book.authors.collect{|author| author.id}
-      ),
-        { :multiple => true, :size => 5 }
-%>
+<% form_for(@book) do |f|%>
+<p>
+<b>Title</b><br/>
+<%= f.text_field :title %></p>
 </p>
 
-<p><label for="book_published_at">Published at</label><br/>
-<%= datetime_select 'book', 'published_at' %></p>
+<p>
+<b>Publisher</b><br/>
+<%= f.collection_select  :publisher_id, @publishers, :id, :name %></p>
+</p>
 
-<p><label for="book_isbn">Isbn</label><br/>
-<%= text_field 'book', 'isbn' %></p>
+<p>
+<b>Published at</b><br/>
+<%= f.datetime_select :published_at %></p>
+</p>
 
-<p><label for="book_blurb">Blurb</label><br/>
-<%= text_area 'book', 'blurb' %></p>
+<p>
+<b>Isbn</b><br/>
+<%= f.text_field :isbn %></p>
+</p>
 
-<p><label for="book_price">Price</label><br/>
-<%= text_field 'book', 'price' %></p>
+<p>
+<b>Blurb</b><br/>
+<%= f.text_area :blurb, :class => "mceEditor"%></p>
+</p>
 
-<p><label for="book_page_count">Page count</label><br/>
-<%= text_field 'book', 'page_count' %></p>
+<p>
+<b>Price</b><br/>
+<%= f.text_field :price %></p>
+</p>
 
-   
-<p><label for="book_photo" >Book photo</label><br />
-<%= file_field 'book', :photo %>    
-</p>    
-       
-     
+<p>
+<b>Page count</b><br/>
+<%= f.text_field :page_count %></p>
+</p>
+
+<p>   
+<b>Book photo</b><br />
+<%= f.file_field :photo %>    
+</p>   
+
+<p>
+    <%= f.submit "GO" %>
+</p>
+<% end %>

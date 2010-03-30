@@ -41,6 +41,8 @@ Rails::Initializer.run do |config|
     :secret      => '3ce44689384a4e65f5e9e7abe2f13e50a7be98bae7f584920ce944b4a7b10a545f29cd9ce71cef0a97708007466033e1aca3d5200d66c2710c27bf2d00cdfc87'
   }
 
+  config.action_view.sanitized_allowed_tags = %w(table tr td span br strong em p sub sup img object param ul li ol)
+  config.action_view.sanitized_allowed_attributes = %w(font id class style border src width height data type name value)
   # Use the database for sessions instead of the cookie-based default,
   # which shouldn't be used to store highly confidential information
   # (create the session table with 'rake db:sessions:create')

@@ -1,0 +1,18 @@
+<dl id="books">
+  <% for book in @books %>
+   <dt><%= book.title %></dt>
+  <% for author in book.authors %>
+   <dd><%= author.last_name %>, <%= author.first_name %></dd>
+  <% end %>
+   <dd><%= pluralize(book.page_count, "page") %></dd>
+   <dd>Price: $<%= sprintf("%.2f", book.price) %></dd>
+   <dd><small>Publisher: <%= book.publisher.name %></small></dd>
+</dl>
+
+<%= will_paginate @books ,
+    :inner_window => 1,  
+    :outer_window => 1,  
+    :prev_label => 'Previous',  
+    :next_label => 'Next'
+    %>
+<br />

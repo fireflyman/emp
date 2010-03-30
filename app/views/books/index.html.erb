@@ -1,32 +1,31 @@
-<h1>Listing books</h1>
 
 <table>
   <tr>
-    <th>Title</th>
-    <th>Publisher</th>
-    <th>Published at</th>
-    <th>Isbn</th>
-    <th>Blurb</th>
-    <th>Page count</th>
-    <th>Price</th>
+    <th><a href="?sort_by=title">Title</a></th>
+    <th><a href="?sort_by=publisher_id">Publisher</a></th>
+    <th><a href="?sort_by=isbn">Isbn</a></th>
+    <th colspan="3"></th>
   </tr>
 
 <% for book in @books %>
   <tr>
     <td><%=h book.title %></td>
-    <td><%=h book.publisher_id %></td>
-    <td><%=h book.published_at %></td>
-    <td><%=h book.isbn %></td>
-    <td><%=h book.blurb %></td>
-    <td><%=h book.page_count %></td>
-    <td><%=h book.price %></td>
-    <td><%= link_to 'Show', book %></td>
-    <td><%= link_to 'Edit', edit_book_path(book) %></td>
-    <td><%= link_to 'Destroy', book, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%=h book.publisher.name %></td>
+    <td><%=h book.isbn %></td> 
+    <td><%= link_to 'Show', book %> |
+    <%= link_to 'Edit', edit_book_path(book) %> |
+    <%= link_to 'Destroy', book, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New book', new_book_path %>
+<%= will_paginate @books ,
+    :inner_window => 1,  
+    :outer_window => 1,  
+    :prev_label => 'Previous',  
+    :next_label => 'Next'
+    %>
+<br />
+<%= link_to 'Add anthorer new book', new_book_path %>

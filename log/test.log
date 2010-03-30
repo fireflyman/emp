@@ -8856,3 +8856,141 @@ LoadError (Expected C:/RBOR/emp/app/models/book.rb to define Book):
     script/server:3
 
 Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing CatalogController#index (for 127.0.0.1 at 2010-03-30 17:47:59) [GET]
+  Session ID: 733853a9b304c61af3692d85367036ad
+  Parameters: {"action"=>"index", "controller"=>"catalog"}
+
+
+NoMethodError (private method `scan' called for 39640680:Fixnum):
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1332:in `include_eager_order?'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1284:in `construct_finder_sql_for_association_limiting'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1277:in `select_limited_ids_list'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1266:in `add_limited_ids_condition!'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1255:in `construct_finder_sql_with_included_associations'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1243:in `select_all_rows'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1124:in `find_with_associations'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1122:in `catch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1122:in `find_with_associations'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1232:in `find_every'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:503:in `find'
+    /vendor/plugins/will_paginate/lib/will_paginate/finder.rb:82:in `send'
+    /vendor/plugins/will_paginate/lib/will_paginate/finder.rb:82:in `paginate'
+    /vendor/plugins/will_paginate/lib/will_paginate/collection.rb:85:in `create'
+    /vendor/plugins/will_paginate/lib/will_paginate/finder.rb:76:in `paginate'
+    /app/controllers/catalog_controller.rb:5:in `index'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process_without_test'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/test_process.rb:15:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/integration.rb:279:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/integration.rb:172:in `get'
+    test/integration/browsing_and_searching_test.rb:17:in `browse_index'
+    test/integration/browsing_and_searching_test.rb:8:in `test_browsing_the_site'
+    C:/Ruby/lib/ruby/1.8/test/unit/testcase.rb:78:in `__send__'
+    C:/Ruby/lib/ruby/1.8/test/unit/testcase.rb:78:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/integration.rb:547:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+    C:/Ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+    C:/Ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/ui/testrunnermediator.rb:46:in `run_suite'
+    C:/Ruby/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:67:in `start_mediator'
+    C:/Ruby/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:41:in `start'
+    C:/Ruby/lib/ruby/1.8/test/unit/ui/testrunnerutilities.rb:29:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/autorunner.rb:216:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/autorunner.rb:12:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit.rb:278
+    test/integration/browsing_and_searching_test.rb:30
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing CatalogController#index (for 127.0.0.1 at 2010-03-30 17:49:21) [GET]
+  Session ID: d8cf35c68d71459fba88e0e32f992886
+  Parameters: {"action"=>"index", "controller"=>"catalog"}
+
+
+NoMethodError (private method `scan' called for 39640680:Fixnum):
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1332:in `include_eager_order?'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1284:in `construct_finder_sql_for_association_limiting'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1277:in `select_limited_ids_list'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1266:in `add_limited_ids_condition!'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1255:in `construct_finder_sql_with_included_associations'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1243:in `select_all_rows'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1124:in `find_with_associations'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1122:in `catch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/associations.rb:1122:in `find_with_associations'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:1232:in `find_every'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/base.rb:503:in `find'
+    /vendor/plugins/will_paginate/lib/will_paginate/finder.rb:82:in `send'
+    /vendor/plugins/will_paginate/lib/will_paginate/finder.rb:82:in `paginate'
+    /vendor/plugins/will_paginate/lib/will_paginate/collection.rb:85:in `create'
+    /vendor/plugins/will_paginate/lib/will_paginate/finder.rb:76:in `paginate'
+    /app/controllers/catalog_controller.rb:5:in `index'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1158:in `perform_action_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `process_without_test'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/test_process.rb:15:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/integration.rb:279:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/integration.rb:172:in `get'
+    test/integration/browsing_and_searching_test.rb:17:in `browse_index'
+    test/integration/browsing_and_searching_test.rb:8:in `test_browsing_the_site'
+    C:/Ruby/lib/ruby/1.8/test/unit/testcase.rb:78:in `__send__'
+    C:/Ruby/lib/ruby/1.8/test/unit/testcase.rb:78:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/integration.rb:547:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+    C:/Ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+    C:/Ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/ui/testrunnermediator.rb:46:in `run_suite'
+    C:/Ruby/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:67:in `start_mediator'
+    C:/Ruby/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:41:in `start'
+    C:/Ruby/lib/ruby/1.8/test/unit/ui/testrunnerutilities.rb:29:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/autorunner.rb:216:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit/autorunner.rb:12:in `run'
+    C:/Ruby/lib/ruby/1.8/test/unit.rb:278
+    test/integration/browsing_and_searching_test.rb:30
+
+Rendering C:/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)

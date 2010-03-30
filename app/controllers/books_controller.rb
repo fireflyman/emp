@@ -1,9 +1,35 @@
 class BooksController < ApplicationController
   # GET /books
   # GET /books.xml
-  def index
-    @books = Book.find(:all)
+  
+    uses_tiny_mce( :options => {
+      :theme => 'advanced',  # ¥Ö?
+      :language => 'zh',  # ¤¤¤å¬É­±
+      :convert_urls => false, # ¤£??¸ô?¡A§_?¦b´¡¤J?¤ù©Î‰`¹³?¡A‰N?¦¨¬Û?¸ô?¡A®e©ö?­P¸ô???¡C
+      :theme_advanced_toolbar_location => "top",  # ¤u¨ã˜ç¦b¤W­±
+      :theme_advanced_toolbar_align => "left",
+      :theme_advanced_resizing => true,  # ¦ü¥G¤£¦n¨Ï
+      :theme_advanced_resize_horizontal => false,
+      :paste_auto_cleanup_on_paste => true,
+      # ¤u¨ã˜ç¤Wªº«ö?¥¬§½
+      :theme_advanced_buttons1 => %w{formatselect fontselect fontsizeselect forecolor backcolor bold italic underline strikethrough sub sup removeformat},
+      :theme_advanced_buttons2 => %w{undo redo cut copy paste separator justifyleft justifycenter justifyright separator indent outdent separator bullist numlist separator link unlink image media emotions separator table separator fullscreen},
+      :theme_advanced_buttons3 => [],
+      # ¦rÊ^¦Cªí¤¤?¥Üªº¦rÊ^
+      :theme_advanced_fonts => %w{§ºÊ^=§ºÊ^;¶ÂÊ^=¶ÂÊ^;¥é§º=¥é§º;·¢Ê^=·¢Ê^;Ä?=Ä?;¥®?=¥®?;Andale Mono=andale mono,times;Arial=arial,helvetica,sans-serif;Arial Black=arial black,avant garde;Book Antiqua=book antiqua,palatino;Comic Sans MS=comic sans ms,sans-serif;Courier New=courier new,courier;Georgia=georgia,palatino;Helvetica=helvetica;Impact=impact,chicago;Symbol=symbol;Tahoma=tahoma,arial,helvetica,sans-serif;Terminal=terminal,monaco;Times New Roman=times new roman,times;Trebuchet MS=trebuchet ms,geneva;Verdana=verdana,geneva;Webdings=webdings;Wingdings=wingdings,zapf dingbats}, # ¦rÊ^
+      # :force_br_newlines => true, # ¦¹??üL¨î??¾¹?¬q¸¨²Å­(P)´À?¦¨?¦æ²Å(BR)¡C¤£«Ø?¥Î¡Gff¤U¤£¦n¨Ï¡A¥Î¤F¦¹??¦Z¡A™]¤J?®eªº©~¤¤¡B²M?©Î?­³£³Q¯}§¥¡C
+      :plugins => %w{contextmenu paste media emotions table fullscreen inlinepopups}},
+    :only => [:new, :edit, :show, :index, :create, :update])  # tiny_mce¦Ò?ªº«D±`?¤ß¡A?¨½¬O­­©w­þ¨Çaction¤¤°_¥Î
 
+  
+  def index
+    @page_title ='Listing books' 
+    #@books = Book.find(:all)
+    sort_by = params[:sort_by]
+    @books =Book.paginate :page =>params[:page], 
+                                     :order => sort_by, 
+                                     :per_page => 10
+   
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @books }
@@ -14,6 +40,7 @@ class BooksController < ApplicationController
   # GET /books/1.xml
   def show
     @book = Book.find(params[:id])
+    @page_title = "#{@book.title}"
 
     respond_to do |format|
       format.html # show.html.erb
@@ -35,6 +62,7 @@ class BooksController < ApplicationController
 
   # GET /books/1/edit
   def edit
+    @page_title = 'Editing book'
     load_data
     @book = Book.find(params[:id])
     

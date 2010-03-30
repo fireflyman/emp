@@ -58,3 +58,8 @@ a.hover {
   font-size: 12px;
   list-style: square;
 }
+
+/* ?片?小后鼠?指?的�岫� */
+img.magplus {
+    cursor: url(/images/magplus.gif), pointer;
+}
