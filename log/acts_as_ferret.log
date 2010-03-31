@@ -1,0 +1,1159 @@
+# Logfile created on Wed Mar 31 16:45:14 +0800 2010 by /
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] rebuild index with models: []
+[book] reopening index at C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:publisher_name, :title]
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:publisher_name, :title]
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW
+-->+(publisher_name:new title:new) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW NP
+-->+(+(publisher_name:new title:new) +(publisher_name:np title:np)) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW NP
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: APRESS
+-->+(publisher_name:apress title:apress) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: APRESS
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(publisher_name:test title:test) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(publisher_name:test title:test) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW
+-->+(publisher_name:new title:new) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW
+total hits: 0, results delivered: 0
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:author_names, :title]
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW
+-->+(author_names:NEW title:new) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(author_names:TEST title:test) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:title]
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+title:test +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+title:test +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+title:test +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+title:test +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:blurb, :photo_file_size, :published_at, :photo_file_name, :created_at, :photo_updated_at, :price, :photo_content_type, :isbn, :title, :publisher_id, :page_count, :updated_at]
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(blurb:TEST photo_file_size:TEST published_at:TEST photo_file_name:TEST created_at:TEST photo_updated_at:TEST price:TEST photo_content_type:TEST isbn:TEST title:test publisher_id:TEST page_count:TEST updated_at:TEST) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(blurb:TEST photo_file_size:TEST published_at:TEST photo_file_name:TEST created_at:TEST photo_updated_at:TEST price:TEST photo_content_type:TEST isbn:TEST title:test publisher_id:TEST page_count:TEST updated_at:TEST) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW NP
+-->+(+(blurb:NEW photo_file_size:NEW published_at:NEW photo_file_name:NEW created_at:NEW photo_updated_at:NEW price:NEW photo_content_type:NEW isbn:NEW title:new publisher_id:NEW page_count:NEW updated_at:NEW) +(blurb:NP photo_file_size:NP published_at:NP photo_file_name:NP created_at:NP photo_updated_at:NP price:NP photo_content_type:NP isbn:NP title:np publisher_id:NP page_count:NP updated_at:NP)) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW NP
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: 
+-->+(blurb: photo_file_size: published_at: photo_file_name: created_at: photo_updated_at: price: photo_content_type: isbn: publisher_id: page_count: updated_at:) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: 
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: FIREFLYMAN
+-->+(blurb:FIREFLYMAN photo_file_size:FIREFLYMAN published_at:FIREFLYMAN photo_file_name:FIREFLYMAN created_at:FIREFLYMAN photo_updated_at:FIREFLYMAN price:FIREFLYMAN photo_content_type:FIREFLYMAN isbn:FIREFLYMAN title:fireflyman publisher_id:FIREFLYMAN page_count:FIREFLYMAN updated_at:FIREFLYMAN) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: FIREFLYMAN
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW
+-->+(blurb:NEW photo_file_size:NEW published_at:NEW photo_file_name:NEW created_at:NEW photo_updated_at:NEW price:NEW photo_content_type:NEW isbn:NEW title:new publisher_id:NEW page_count:NEW updated_at:NEW) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: RAILS
+-->+(blurb:RAILS photo_file_size:RAILS published_at:RAILS photo_file_name:RAILS created_at:RAILS photo_updated_at:RAILS price:RAILS photo_content_type:RAILS isbn:RAILS title:rails publisher_id:RAILS page_count:RAILS updated_at:RAILS) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: RAILS
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: 30
+-->+(blurb:30 photo_file_size:30 published_at:30 photo_file_name:30 created_at:30 photo_updated_at:30 price:30 photo_content_type:30 isbn:30 title:30 publisher_id:30 page_count:30 updated_at:30) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: 30
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: 21
+-->+(blurb:21 photo_file_size:21 published_at:21 photo_file_name:21 created_at:21 photo_updated_at:21 price:21 photo_content_type:21 isbn:21 title:21 publisher_id:21 page_count:21 updated_at:21) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: 21
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: 21
+-->+(blurb:21 photo_file_size:21 published_at:21 photo_file_name:21 created_at:21 photo_updated_at:21 price:21 photo_content_type:21 isbn:21 title:21 publisher_id:21 page_count:21 updated_at:21) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: 21
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(blurb:TEST photo_file_size:TEST published_at:TEST photo_file_name:TEST created_at:TEST photo_updated_at:TEST price:TEST photo_content_type:TEST isbn:TEST title:test publisher_id:TEST page_count:TEST updated_at:TEST) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:publisher_id, :isbn, :blurb, :page_count, :photo_file_size, :photo_file_name, :created_at, :published_at, :photo_updated_at, :photo_content_type, :price, :title, :updated_at]
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(publisher_id:TEST isbn:TEST blurb:TEST page_count:TEST photo_file_size:TEST photo_file_name:TEST created_at:TEST published_at:TEST photo_updated_at:TEST photo_content_type:TEST price:TEST title:test updated_at:TEST) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(publisher_id:TEST isbn:TEST blurb:TEST page_count:TEST photo_file_size:TEST photo_file_name:TEST created_at:TEST published_at:TEST photo_updated_at:TEST photo_content_type:TEST price:TEST title:test updated_at:TEST) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW
+-->+(publisher_id:NEW isbn:NEW blurb:NEW page_count:NEW photo_file_size:NEW photo_file_name:NEW created_at:NEW published_at:NEW photo_updated_at:NEW photo_content_type:NEW price:NEW title:new updated_at:NEW) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: JAPAN AV
+-->+(+(publisher_id:JAPAN isbn:JAPAN blurb:JAPAN page_count:JAPAN photo_file_size:JAPAN photo_file_name:JAPAN created_at:JAPAN published_at:JAPAN photo_updated_at:JAPAN photo_content_type:JAPAN price:JAPAN title:japan updated_at:JAPAN) +(publisher_id:AV isbn:AV blurb:AV page_count:AV photo_file_size:AV photo_file_name:AV created_at:AV published_at:AV photo_updated_at:AV photo_content_type:AV price:AV title:av updated_at:AV)) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: JAPAN AV
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW NP
+-->+(+(publisher_id:NEW isbn:NEW blurb:NEW page_count:NEW photo_file_size:NEW photo_file_name:NEW created_at:NEW published_at:NEW photo_updated_at:NEW photo_content_type:NEW price:NEW title:new updated_at:NEW) +(publisher_id:NP isbn:NP blurb:NP page_count:NP photo_file_size:NP photo_file_name:NP created_at:NP published_at:NP photo_updated_at:NP photo_content_type:NP price:NP title:np updated_at:NP)) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW NP
+total hits: 0, results delivered: 0
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:published_at, :photo_updated_at, :page_count, :photo_content_type, :price, :publisher_id, :isbn, :created_at, :blurb, :photo_file_size, :title, :photo_file_name, :updated_at]
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW NP
+-->+(+(published_at:NEW photo_updated_at:NEW page_count:NEW photo_content_type:NEW price:NEW publisher_id:NEW isbn:NEW created_at:NEW blurb:NEW photo_file_size:NEW title:new photo_file_name:NEW updated_at:NEW) +(published_at:NP photo_updated_at:NP page_count:NP photo_content_type:NP price:NP publisher_id:NP isbn:NP created_at:NP blurb:NP photo_file_size:NP title:np photo_file_name:NP updated_at:NP)) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW NP
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW
+-->+(published_at:NEW photo_updated_at:NEW page_count:NEW photo_content_type:NEW price:NEW publisher_id:NEW isbn:NEW created_at:NEW blurb:NEW photo_file_size:NEW title:new photo_file_name:NEW updated_at:NEW) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(published_at:TEST photo_updated_at:TEST page_count:TEST photo_content_type:TEST price:TEST publisher_id:TEST isbn:TEST created_at:TEST blurb:TEST photo_file_size:TEST title:test photo_file_name:TEST updated_at:TEST) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:published_at, :photo_updated_at, :page_count, :photo_content_type, :price, :publisher_id, :isbn, :created_at, :blurb, :photo_file_size, :title, :photo_file_name, :updated_at]
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(published_at:TEST photo_updated_at:TEST page_count:TEST photo_content_type:TEST price:TEST publisher_id:TEST isbn:TEST created_at:TEST blurb:TEST photo_file_size:TEST title:test photo_file_name:TEST updated_at:TEST) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(published_at:TEST photo_updated_at:TEST page_count:TEST photo_content_type:TEST price:TEST publisher_id:TEST isbn:TEST created_at:TEST blurb:TEST photo_file_size:TEST title:test photo_file_name:TEST updated_at:TEST) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(published_at:TEST photo_updated_at:TEST page_count:TEST photo_content_type:TEST price:TEST publisher_id:TEST isbn:TEST created_at:TEST blurb:TEST photo_file_size:TEST title:test photo_file_name:TEST updated_at:TEST) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:published_at, :photo_updated_at, :page_count, :photo_content_type, :price, :publisher_id, :isbn, :created_at, :blurb, :photo_file_size, :title, :photo_file_name, :updated_at]
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: RAILS
+-->+(published_at:RAILS photo_updated_at:RAILS page_count:RAILS photo_content_type:RAILS price:RAILS publisher_id:RAILS isbn:RAILS created_at:RAILS blurb:RAILS photo_file_size:RAILS title:rails photo_file_name:RAILS updated_at:RAILS) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: RAILS
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(published_at:TEST photo_updated_at:TEST page_count:TEST photo_content_type:TEST price:TEST publisher_id:TEST isbn:TEST created_at:TEST blurb:TEST photo_file_size:TEST title:test photo_file_name:TEST updated_at:TEST) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW
+-->+(published_at:NEW photo_updated_at:NEW page_count:NEW photo_content_type:NEW price:NEW publisher_id:NEW isbn:NEW created_at:NEW blurb:NEW photo_file_size:NEW title:new photo_file_name:NEW updated_at:NEW) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: RAILS
+-->+(published_at:RAILS photo_updated_at:RAILS page_count:RAILS photo_content_type:RAILS price:RAILS publisher_id:RAILS isbn:RAILS created_at:RAILS blurb:RAILS photo_file_size:RAILS title:rails photo_file_name:RAILS updated_at:RAILS) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: RAILS
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW NP
+-->+(+(published_at:NEW photo_updated_at:NEW page_count:NEW photo_content_type:NEW price:NEW publisher_id:NEW isbn:NEW created_at:NEW blurb:NEW photo_file_size:NEW title:new photo_file_name:NEW updated_at:NEW) +(published_at:NP photo_updated_at:NP page_count:NP photo_content_type:NP price:NP publisher_id:NP isbn:NP created_at:NP blurb:NP photo_file_size:NP title:np photo_file_name:NP updated_at:NP)) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW NP
+total hits: 0, results delivered: 0
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:photo_file_name, :page_count, :published_at, :photo_updated_at, :photo_content_type, :price, :created_at, :publisher_id, :isbn, :blurb, :title, :photo_file_size, :updated_at]
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW NP
+-->+(+(photo_file_name:NEW page_count:NEW published_at:NEW photo_updated_at:NEW photo_content_type:NEW price:NEW created_at:NEW publisher_id:NEW isbn:NEW blurb:NEW title:new photo_file_size:NEW updated_at:NEW) +(photo_file_name:NP page_count:NP published_at:NP photo_updated_at:NP photo_content_type:NP price:NP created_at:NP publisher_id:NP isbn:NP blurb:NP title:np photo_file_size:NP updated_at:NP)) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW NP
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(photo_file_name:TEST page_count:TEST published_at:TEST photo_updated_at:TEST photo_content_type:TEST price:TEST created_at:TEST publisher_id:TEST isbn:TEST blurb:TEST title:test photo_file_size:TEST updated_at:TEST) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEW NP
+-->+(+(photo_file_name:NEW page_count:NEW published_at:NEW photo_updated_at:NEW photo_content_type:NEW price:NEW created_at:NEW publisher_id:NEW isbn:NEW blurb:NEW title:new photo_file_size:NEW updated_at:NEW) +(photo_file_name:NP page_count:NP published_at:NP photo_updated_at:NP photo_content_type:NP price:NP created_at:NP publisher_id:NP isbn:NP blurb:NP title:np photo_file_size:NP updated_at:NP)) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: NEW NP
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(photo_file_name:TEST page_count:TEST published_at:TEST photo_updated_at:TEST photo_content_type:TEST price:TEST created_at:TEST publisher_id:TEST isbn:TEST blurb:TEST title:test photo_file_size:TEST updated_at:TEST) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: FACE
+-->+(photo_file_name:FACE page_count:FACE published_at:FACE photo_updated_at:FACE photo_content_type:FACE price:FACE created_at:FACE publisher_id:FACE isbn:FACE blurb:FACE title:face photo_file_size:FACE updated_at:FACE) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: FACE
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: FACE
+-->+(photo_file_name:FACE page_count:FACE published_at:FACE photo_updated_at:FACE photo_content_type:FACE price:FACE created_at:FACE publisher_id:FACE isbn:FACE blurb:FACE title:face photo_file_size:FACE updated_at:FACE) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: FACE
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: FACE
+-->+(photo_file_name:FACE page_count:FACE published_at:FACE photo_updated_at:FACE photo_content_type:FACE price:FACE created_at:FACE publisher_id:FACE isbn:FACE blurb:FACE title:face photo_file_size:FACE updated_at:FACE) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: FACE
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(photo_file_name:TEST page_count:TEST published_at:TEST photo_updated_at:TEST photo_content_type:TEST price:TEST created_at:TEST publisher_id:TEST isbn:TEST blurb:TEST title:test photo_file_size:TEST updated_at:TEST) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:author_names, :title]
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(author_names:TEST title:test) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(author_names:TEST title:test) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: HOW
+-->+(author_names:HOW) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: HOW
+total hits: 0, results delivered: 0
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:author_names, :title]
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: HOW
+-->+(author_names:HOW) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: HOW
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: HOW
+-->+(author_names:HOW) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: HOW
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(author_names:TEST title:test) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: FACE
+-->+(author_names:FACE title:face) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: FACE
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: HOW
+-->+(author_names:HOW) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: HOW
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(author_names:TEST title:test) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: TEST
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: RAILS
+-->+(author_names:rails title:rails) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 3 results from AR: [#<Book id: 6, title: "Test rails", publisher_id: 1, published_at: "2010-03-29 17:50:00", isbn: "123-123-145-2", blurb: "<p>sad</p>", page_count: 35, price: 17.5, created_at: "2010-03-29 17:51:08", updated_at: "2010-03-31 18:10:07", photo_file_name: "zhao.jpg", photo_content_type: "image/jpeg", photo_file_size: 15200, photo_updated_at: "2010-03-29 17:51:07">, #<Book id: 4, title: "New BP for rails", publisher_id: 1, published_at: "2010-03-29 16:51:00", isbn: "123-123-145-9", blurb: "<p>For</p>", page_count: 350, price: 117.5, created_at: "2010-03-29 16:51:56", updated_at: "2010-03-31 18:09:25", photo_file_name: "images.jpg", photo_content_type: "image/jpeg", photo_file_size: 3598, photo_updated_at: "2010-03-29 16:51:54">, #<Book id: 5, title: "Next one another rails", publisher_id: 4, published_at: "2010-03-29 17:49:00", isbn: "123-123-145-0", blurb: "<p>Tesr</p>", page_count: 30, price: 11.5, created_at: "2010-03-29 17:49:45", updated_at: "2010-03-31 18:09:46", photo_file_name: "fuckgfw.jpg", photo_content_type: "image/jpeg", photo_file_size: 23881, photo_updated_at: "2010-03-29 17:49:45">]
+Query: RAILS
+total hits: 3, results delivered: 3
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: RUBY
+-->+(author_names:ruby title:ruby) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 5 results from AR: [#<Book id: 11, title: "觀止的后 ruby 時代", publisher_id: 5, published_at: "2010-03-30 14:09:00", isbn: "124-123-145-3", blurb: "<p><span class=\"short\">沉寂15年，首次与中�...", page_count: 203, price: 42.0, created_at: "2010-03-30 14:10:42", updated_at: "2010-03-31 18:12:14", photo_file_name: "firefly-logo.jpg", photo_content_type: "image/jpeg", photo_file_size: 2694, photo_updated_at: "2010-03-30 14:10:41">, #<Book id: 9, title: "FaceBook ruby", publisher_id: 1, published_at: "2010-03-30 14:01:00", isbn: "124-123-145-1", blurb: "<p><span style=\"background-color: #ffff00;\"><strong...", page_count: 284, price: 29.8, created_at: "2010-03-30 14:06:28", updated_at: "2010-03-31 18:10:55", photo_file_name: "hero.png", photo_content_type: "image/png", photo_file_size: 7066, photo_updated_at: "2010-03-30 14:06:27">, #<Book id: 10, title: "變成主機 ruby on rails", publisher_id: 4, published_at: "2010-03-30 14:06:00", isbn: "124-123-145-2", blurb: "<p><span class=\"short\">如果让程序员们列出�...", page_count: 217, price: 28.0, created_at: "2010-03-30 14:08:15", updated_at: "2010-03-31 18:11:49", photo_file_name: "Socrate.png", photo_content_type: "image/png", photo_file_size: 5979, photo_updated_at: "2010-03-30 14:08:15">, #<Book id: 7, title: "How to pao ruby MM", publisher_id: 5, published_at: "2010-03-30 10:53:00", isbn: "123-123-145-3", blurb: "<p>For test to my dear friend!</p>", page_count: 111, price: 250.0, created_at: "2010-03-30 10:55:47", updated_at: "2010-03-31 18:11:12", photo_file_name: "a.jpg", photo_content_type: "image/jpeg", photo_file_size: 20902, photo_updated_at: "2010-03-30 10:55:44">, #<Book id: 8, title: "Fan ye like a ruby gay", publisher_id: 1, published_at: "2010-03-30 11:28:00", isbn: "124-123-145-0", blurb: "<p><span style=\"font-size: medium;\"><span style=\"fo...", page_count: 100, price: 144.0, created_at: "2010-03-30 11:28:59", updated_at: "2010-03-31 18:11:30", photo_file_name: "trlpt.gif", photo_content_type: "image/gif", photo_file_size: 1349953, photo_updated_at: "2010-03-30 11:28:58">]
+Query: RUBY
+total hits: 5, results delivered: 5
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:publisher_names, :title]
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: APRESS
+-->+(publisher_names:APRESS title:apress) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: APRESS
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: RUBY
+-->+(publisher_names:RUBY title:ruby) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 5 results from AR: [#<Book id: 11, title: "觀止的后 ruby 時代", publisher_id: 5, published_at: "2010-03-30 14:09:00", isbn: "124-123-145-3", blurb: "<p><span class=\"short\">沉寂15年，首次与中�...", page_count: 203, price: 42.0, created_at: "2010-03-30 14:10:42", updated_at: "2010-03-31 18:12:14", photo_file_name: "firefly-logo.jpg", photo_content_type: "image/jpeg", photo_file_size: 2694, photo_updated_at: "2010-03-30 14:10:41">, #<Book id: 9, title: "FaceBook ruby", publisher_id: 1, published_at: "2010-03-30 14:01:00", isbn: "124-123-145-1", blurb: "<p><span style=\"background-color: #ffff00;\"><strong...", page_count: 284, price: 29.8, created_at: "2010-03-30 14:06:28", updated_at: "2010-03-31 18:10:55", photo_file_name: "hero.png", photo_content_type: "image/png", photo_file_size: 7066, photo_updated_at: "2010-03-30 14:06:27">, #<Book id: 10, title: "變成主機 ruby on rails", publisher_id: 4, published_at: "2010-03-30 14:06:00", isbn: "124-123-145-2", blurb: "<p><span class=\"short\">如果让程序员们列出�...", page_count: 217, price: 28.0, created_at: "2010-03-30 14:08:15", updated_at: "2010-03-31 18:11:49", photo_file_name: "Socrate.png", photo_content_type: "image/png", photo_file_size: 5979, photo_updated_at: "2010-03-30 14:08:15">, #<Book id: 7, title: "How to pao ruby MM", publisher_id: 5, published_at: "2010-03-30 10:53:00", isbn: "123-123-145-3", blurb: "<p>For test to my dear friend!</p>", page_count: 111, price: 250.0, created_at: "2010-03-30 10:55:47", updated_at: "2010-03-31 18:11:12", photo_file_name: "a.jpg", photo_content_type: "image/jpeg", photo_file_size: 20902, photo_updated_at: "2010-03-30 10:55:44">, #<Book id: 8, title: "Fan ye like a ruby gay", publisher_id: 1, published_at: "2010-03-30 11:28:00", isbn: "124-123-145-0", blurb: "<p><span style=\"font-size: medium;\"><span style=\"fo...", page_count: 100, price: 144.0, created_at: "2010-03-30 11:28:59", updated_at: "2010-03-31 18:11:30", photo_file_name: "trlpt.gif", photo_content_type: "image/gif", photo_file_size: 1349953, photo_updated_at: "2010-03-30 11:28:58">]
+Query: RUBY
+total hits: 5, results delivered: 5
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: RUBY
+-->+(publisher_names:RUBY title:ruby) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 5 results from AR: [#<Book id: 11, title: "觀止的后 ruby 時代", publisher_id: 5, published_at: "2010-03-30 14:09:00", isbn: "124-123-145-3", blurb: "<p><span class=\"short\">沉寂15年，首次与中�...", page_count: 203, price: 42.0, created_at: "2010-03-30 14:10:42", updated_at: "2010-03-31 18:12:14", photo_file_name: "firefly-logo.jpg", photo_content_type: "image/jpeg", photo_file_size: 2694, photo_updated_at: "2010-03-30 14:10:41">, #<Book id: 9, title: "FaceBook ruby", publisher_id: 1, published_at: "2010-03-30 14:01:00", isbn: "124-123-145-1", blurb: "<p><span style=\"background-color: #ffff00;\"><strong...", page_count: 284, price: 29.8, created_at: "2010-03-30 14:06:28", updated_at: "2010-03-31 18:10:55", photo_file_name: "hero.png", photo_content_type: "image/png", photo_file_size: 7066, photo_updated_at: "2010-03-30 14:06:27">, #<Book id: 10, title: "變成主機 ruby on rails", publisher_id: 4, published_at: "2010-03-30 14:06:00", isbn: "124-123-145-2", blurb: "<p><span class=\"short\">如果让程序员们列出�...", page_count: 217, price: 28.0, created_at: "2010-03-30 14:08:15", updated_at: "2010-03-31 18:11:49", photo_file_name: "Socrate.png", photo_content_type: "image/png", photo_file_size: 5979, photo_updated_at: "2010-03-30 14:08:15">, #<Book id: 7, title: "How to pao ruby MM", publisher_id: 5, published_at: "2010-03-30 10:53:00", isbn: "123-123-145-3", blurb: "<p>For test to my dear friend!</p>", page_count: 111, price: 250.0, created_at: "2010-03-30 10:55:47", updated_at: "2010-03-31 18:11:12", photo_file_name: "a.jpg", photo_content_type: "image/jpeg", photo_file_size: 20902, photo_updated_at: "2010-03-30 10:55:44">, #<Book id: 8, title: "Fan ye like a ruby gay", publisher_id: 1, published_at: "2010-03-30 11:28:00", isbn: "124-123-145-0", blurb: "<p><span style=\"font-size: medium;\"><span style=\"fo...", page_count: 100, price: 144.0, created_at: "2010-03-30 11:28:59", updated_at: "2010-03-31 18:11:30", photo_file_name: "trlpt.gif", photo_content_type: "image/gif", photo_file_size: 1349953, photo_updated_at: "2010-03-30 11:28:58">]
+Query: RUBY
+total hits: 5, results delivered: 5
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(publisher_names:TEST title:test) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 1 results from AR: [#<Book id: 6, title: "Test rails", publisher_id: 1, published_at: "2010-03-29 17:50:00", isbn: "123-123-145-2", blurb: "<p>sad</p>", page_count: 35, price: 17.5, created_at: "2010-03-29 17:51:08", updated_at: "2010-03-31 18:10:07", photo_file_name: "zhao.jpg", photo_content_type: "image/jpeg", photo_file_size: 15200, photo_updated_at: "2010-03-29 17:51:07">]
+Query: TEST
+total hits: 1, results delivered: 1
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: HOW
+-->+(publisher_names:HOW) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: HOW
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: HOW
+-->+(publisher_names:HOW) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: HOW
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: RAILS
+-->+(publisher_names:RAILS title:rails) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 4 results from AR: [#<Book id: 6, title: "Test rails", publisher_id: 1, published_at: "2010-03-29 17:50:00", isbn: "123-123-145-2", blurb: "<p>sad</p>", page_count: 35, price: 17.5, created_at: "2010-03-29 17:51:08", updated_at: "2010-03-31 18:10:07", photo_file_name: "zhao.jpg", photo_content_type: "image/jpeg", photo_file_size: 15200, photo_updated_at: "2010-03-29 17:51:07">, #<Book id: 10, title: "變成主機 ruby on rails", publisher_id: 4, published_at: "2010-03-30 14:06:00", isbn: "124-123-145-2", blurb: "<p><span class=\"short\">如果让程序员们列出�...", page_count: 217, price: 28.0, created_at: "2010-03-30 14:08:15", updated_at: "2010-03-31 18:11:49", photo_file_name: "Socrate.png", photo_content_type: "image/png", photo_file_size: 5979, photo_updated_at: "2010-03-30 14:08:15">, #<Book id: 4, title: "New BP for rails", publisher_id: 1, published_at: "2010-03-29 16:51:00", isbn: "123-123-145-9", blurb: "<p>For</p>", page_count: 350, price: 117.5, created_at: "2010-03-29 16:51:56", updated_at: "2010-03-31 18:09:25", photo_file_name: "images.jpg", photo_content_type: "image/jpeg", photo_file_size: 3598, photo_updated_at: "2010-03-29 16:51:54">, #<Book id: 5, title: "Next one another rails", publisher_id: 4, published_at: "2010-03-29 17:49:00", isbn: "123-123-145-0", blurb: "<p>Tesr</p>", page_count: 30, price: 11.5, created_at: "2010-03-29 17:49:45", updated_at: "2010-03-31 18:09:46", photo_file_name: "fuckgfw.jpg", photo_content_type: "image/jpeg", photo_file_size: 23881, photo_updated_at: "2010-03-29 17:49:45">]
+Query: RAILS
+total hits: 4, results delivered: 4
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: ONE
+-->+(publisher_names:ONE title:one) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 1 results from AR: [#<Book id: 5, title: "Next one another rails", publisher_id: 4, published_at: "2010-03-29 17:49:00", isbn: "123-123-145-0", blurb: "<p>Tesr</p>", page_count: 30, price: 11.5, created_at: "2010-03-29 17:49:45", updated_at: "2010-03-31 18:09:46", photo_file_name: "fuckgfw.jpg", photo_content_type: "image/jpeg", photo_file_size: 23881, photo_updated_at: "2010-03-29 17:49:45">]
+Query: ONE
+total hits: 1, results delivered: 1
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: NEXT
+-->+(publisher_names:NEXT title:next) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 1 results from AR: [#<Book id: 5, title: "Next one another rails", publisher_id: 4, published_at: "2010-03-29 17:49:00", isbn: "123-123-145-0", blurb: "<p>Tesr</p>", page_count: 30, price: 11.5, created_at: "2010-03-29 17:49:45", updated_at: "2010-03-31 18:09:46", photo_file_name: "fuckgfw.jpg", photo_content_type: "image/jpeg", photo_file_size: 23881, photo_updated_at: "2010-03-29 17:49:45">]
+Query: NEXT
+total hits: 1, results delivered: 1
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: 主機
+-->+(publisher_names:主機) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: 主機
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: 主
+-->+(publisher_names:主) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: 主
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: TEST
+-->+(publisher_names:TEST title:test) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 1 results from AR: [#<Book id: 6, title: "Test rails", publisher_id: 1, published_at: "2010-03-29 17:50:00", isbn: "123-123-145-2", blurb: "<p>sad</p>", page_count: 35, price: 17.5, created_at: "2010-03-29 17:51:08", updated_at: "2010-03-31 18:10:07", photo_file_name: "zhao.jpg", photo_content_type: "image/jpeg", photo_file_size: 15200, photo_updated_at: "2010-03-29 17:51:07">]
+Query: TEST
+total hits: 1, results delivered: 1
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: PAO
+-->+(publisher_names:PAO title:pao) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 1 results from AR: [#<Book id: 7, title: "How to pao ruby MM", publisher_id: 5, published_at: "2010-03-30 10:53:00", isbn: "123-123-145-3", blurb: "<p>For test to my dear friend!</p>", page_count: 111, price: 250.0, created_at: "2010-03-30 10:55:47", updated_at: "2010-03-31 18:11:12", photo_file_name: "a.jpg", photo_content_type: "image/jpeg", photo_file_size: 20902, photo_updated_at: "2010-03-30 10:55:44">]
+Query: PAO
+total hits: 1, results delivered: 1
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: 機
+-->+(publisher_names:機) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: 機
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: 成
+-->+(publisher_names:成) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: 成
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: 變成
+-->+(publisher_names:變成) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: 變成
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: RAILS
+-->+(publisher_names:RAILS title:rails) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 4 results from AR: [#<Book id: 6, title: "Test rails", publisher_id: 1, published_at: "2010-03-29 17:50:00", isbn: "123-123-145-2", blurb: "<p>sad</p>", page_count: 35, price: 17.5, created_at: "2010-03-29 17:51:08", updated_at: "2010-03-31 18:10:07", photo_file_name: "zhao.jpg", photo_content_type: "image/jpeg", photo_file_size: 15200, photo_updated_at: "2010-03-29 17:51:07">, #<Book id: 10, title: "變成主機 ruby on rails", publisher_id: 4, published_at: "2010-03-30 14:06:00", isbn: "124-123-145-2", blurb: "<p><span class=\"short\">如果让程序员们列出�...", page_count: 217, price: 28.0, created_at: "2010-03-30 14:08:15", updated_at: "2010-03-31 18:11:49", photo_file_name: "Socrate.png", photo_content_type: "image/png", photo_file_size: 5979, photo_updated_at: "2010-03-30 14:08:15">, #<Book id: 4, title: "New BP for rails", publisher_id: 1, published_at: "2010-03-29 16:51:00", isbn: "123-123-145-9", blurb: "<p>For</p>", page_count: 350, price: 117.5, created_at: "2010-03-29 16:51:56", updated_at: "2010-03-31 18:09:25", photo_file_name: "images.jpg", photo_content_type: "image/jpeg", photo_file_size: 3598, photo_updated_at: "2010-03-29 16:51:54">, #<Book id: 5, title: "Next one another rails", publisher_id: 4, published_at: "2010-03-29 17:49:00", isbn: "123-123-145-0", blurb: "<p>Tesr</p>", page_count: 30, price: 11.5, created_at: "2010-03-29 17:49:45", updated_at: "2010-03-31 18:09:46", photo_file_name: "fuckgfw.jpg", photo_content_type: "image/jpeg", photo_file_size: 23881, photo_updated_at: "2010-03-29 17:49:45">]
+Query: RAILS
+total hits: 4, results delivered: 4
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: ON
+-->+(publisher_names:ON) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: ON
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: RUBY
+-->+(publisher_names:RUBY title:ruby) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 5 results from AR: [#<Book id: 11, title: "觀止的后 ruby 時代", publisher_id: 5, published_at: "2010-03-30 14:09:00", isbn: "124-123-145-3", blurb: "<p><span class=\"short\">沉寂15年，首次与中�...", page_count: 203, price: 42.0, created_at: "2010-03-30 14:10:42", updated_at: "2010-03-31 18:12:14", photo_file_name: "firefly-logo.jpg", photo_content_type: "image/jpeg", photo_file_size: 2694, photo_updated_at: "2010-03-30 14:10:41">, #<Book id: 9, title: "FaceBook ruby", publisher_id: 1, published_at: "2010-03-30 14:01:00", isbn: "124-123-145-1", blurb: "<p><span style=\"background-color: #ffff00;\"><strong...", page_count: 284, price: 29.8, created_at: "2010-03-30 14:06:28", updated_at: "2010-03-31 18:10:55", photo_file_name: "hero.png", photo_content_type: "image/png", photo_file_size: 7066, photo_updated_at: "2010-03-30 14:06:27">, #<Book id: 10, title: "變成主機 ruby on rails", publisher_id: 4, published_at: "2010-03-30 14:06:00", isbn: "124-123-145-2", blurb: "<p><span class=\"short\">如果让程序员们列出�...", page_count: 217, price: 28.0, created_at: "2010-03-30 14:08:15", updated_at: "2010-03-31 18:11:49", photo_file_name: "Socrate.png", photo_content_type: "image/png", photo_file_size: 5979, photo_updated_at: "2010-03-30 14:08:15">, #<Book id: 7, title: "How to pao ruby MM", publisher_id: 5, published_at: "2010-03-30 10:53:00", isbn: "123-123-145-3", blurb: "<p>For test to my dear friend!</p>", page_count: 111, price: 250.0, created_at: "2010-03-30 10:55:47", updated_at: "2010-03-31 18:11:12", photo_file_name: "a.jpg", photo_content_type: "image/jpeg", photo_file_size: 20902, photo_updated_at: "2010-03-30 10:55:44">, #<Book id: 8, title: "Fan ye like a ruby gay", publisher_id: 1, published_at: "2010-03-30 11:28:00", isbn: "124-123-145-0", blurb: "<p><span style=\"font-size: medium;\"><span style=\"fo...", page_count: 100, price: 144.0, created_at: "2010-03-30 11:28:59", updated_at: "2010-03-31 18:11:30", photo_file_name: "trlpt.gif", photo_content_type: "image/gif", photo_file_size: 1349953, photo_updated_at: "2010-03-30 11:28:58">]
+Query: RUBY
+total hits: 5, results delivered: 5
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: 觀止的后 RUBY 時代
+-->+(+(publisher_names:觀止的后) +(publisher_names:RUBY title:ruby) +(publisher_names:時代)) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: 觀止的后 RUBY 時代
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: RUBY
+-->+(publisher_names:RUBY title:ruby) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 5 results from AR: [#<Book id: 11, title: "觀止的后 ruby 時代", publisher_id: 5, published_at: "2010-03-30 14:09:00", isbn: "124-123-145-3", blurb: "<p><span class=\"short\">沉寂15年，首次与中�...", page_count: 203, price: 42.0, created_at: "2010-03-30 14:10:42", updated_at: "2010-03-31 18:12:14", photo_file_name: "firefly-logo.jpg", photo_content_type: "image/jpeg", photo_file_size: 2694, photo_updated_at: "2010-03-30 14:10:41">, #<Book id: 9, title: "FaceBook ruby", publisher_id: 1, published_at: "2010-03-30 14:01:00", isbn: "124-123-145-1", blurb: "<p><span style=\"background-color: #ffff00;\"><strong...", page_count: 284, price: 29.8, created_at: "2010-03-30 14:06:28", updated_at: "2010-03-31 18:10:55", photo_file_name: "hero.png", photo_content_type: "image/png", photo_file_size: 7066, photo_updated_at: "2010-03-30 14:06:27">, #<Book id: 10, title: "變成主機 ruby on rails", publisher_id: 4, published_at: "2010-03-30 14:06:00", isbn: "124-123-145-2", blurb: "<p><span class=\"short\">如果让程序员们列出�...", page_count: 217, price: 28.0, created_at: "2010-03-30 14:08:15", updated_at: "2010-03-31 18:11:49", photo_file_name: "Socrate.png", photo_content_type: "image/png", photo_file_size: 5979, photo_updated_at: "2010-03-30 14:08:15">, #<Book id: 7, title: "How to pao ruby MM", publisher_id: 5, published_at: "2010-03-30 10:53:00", isbn: "123-123-145-3", blurb: "<p>For test to my dear friend!</p>", page_count: 111, price: 250.0, created_at: "2010-03-30 10:55:47", updated_at: "2010-03-31 18:11:12", photo_file_name: "a.jpg", photo_content_type: "image/jpeg", photo_file_size: 20902, photo_updated_at: "2010-03-30 10:55:44">, #<Book id: 8, title: "Fan ye like a ruby gay", publisher_id: 1, published_at: "2010-03-30 11:28:00", isbn: "124-123-145-0", blurb: "<p><span style=\"font-size: medium;\"><span style=\"fo...", page_count: 100, price: 144.0, created_at: "2010-03-30 11:28:59", updated_at: "2010-03-31 18:11:30", photo_file_name: "trlpt.gif", photo_content_type: "image/gif", photo_file_size: 1349953, photo_updated_at: "2010-03-30 11:28:58">]
+Query: RUBY
+total hits: 5, results delivered: 5
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:published_at, :photo_file_name, :page_count, :photo_updated_at, :price, :photo_content_type, :isbn, :created_at, :publisher_id, :blurb, :title, :photo_file_size, :updated_at]
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: HOW
+-->+(published_at:HOW photo_file_name:HOW page_count:HOW photo_updated_at:HOW price:HOW photo_content_type:HOW isbn:HOW created_at:HOW publisher_id:HOW blurb:HOW photo_file_size:HOW updated_at:HOW) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: HOW
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: RUBY
+-->+(published_at:RUBY photo_file_name:RUBY page_count:RUBY photo_updated_at:RUBY price:RUBY photo_content_type:RUBY isbn:RUBY created_at:RUBY publisher_id:RUBY blurb:RUBY title:ruby photo_file_size:RUBY updated_at:RUBY) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 5 results from AR: [#<Book id: 11, title: "觀止的后 ruby 時代", publisher_id: 5, published_at: "2010-03-30 14:09:00", isbn: "124-123-145-3", blurb: "<p><span class=\"short\">沉寂15年，首次与中�...", page_count: 203, price: 42.0, created_at: "2010-03-30 14:10:42", updated_at: "2010-03-31 18:12:14", photo_file_name: "firefly-logo.jpg", photo_content_type: "image/jpeg", photo_file_size: 2694, photo_updated_at: "2010-03-30 14:10:41">, #<Book id: 9, title: "FaceBook ruby", publisher_id: 1, published_at: "2010-03-30 14:01:00", isbn: "124-123-145-1", blurb: "<p><span style=\"background-color: #ffff00;\"><strong...", page_count: 284, price: 29.8, created_at: "2010-03-30 14:06:28", updated_at: "2010-03-31 18:10:55", photo_file_name: "hero.png", photo_content_type: "image/png", photo_file_size: 7066, photo_updated_at: "2010-03-30 14:06:27">, #<Book id: 10, title: "變成主機 ruby on rails", publisher_id: 4, published_at: "2010-03-30 14:06:00", isbn: "124-123-145-2", blurb: "<p><span class=\"short\">如果让程序员们列出�...", page_count: 217, price: 28.0, created_at: "2010-03-30 14:08:15", updated_at: "2010-03-31 18:11:49", photo_file_name: "Socrate.png", photo_content_type: "image/png", photo_file_size: 5979, photo_updated_at: "2010-03-30 14:08:15">, #<Book id: 7, title: "How to pao ruby MM", publisher_id: 5, published_at: "2010-03-30 10:53:00", isbn: "123-123-145-3", blurb: "<p>For test to my dear friend!</p>", page_count: 111, price: 250.0, created_at: "2010-03-30 10:55:47", updated_at: "2010-03-31 18:11:12", photo_file_name: "a.jpg", photo_content_type: "image/jpeg", photo_file_size: 20902, photo_updated_at: "2010-03-30 10:55:44">, #<Book id: 8, title: "Fan ye like a ruby gay", publisher_id: 1, published_at: "2010-03-30 11:28:00", isbn: "124-123-145-0", blurb: "<p><span style=\"font-size: medium;\"><span style=\"fo...", page_count: 100, price: 144.0, created_at: "2010-03-30 11:28:59", updated_at: "2010-03-31 18:11:30", photo_file_name: "trlpt.gif", photo_content_type: "image/gif", photo_file_size: 1349953, photo_updated_at: "2010-03-30 11:28:58">]
+Query: RUBY
+total hits: 5, results delivered: 5
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: JAVA
+-->+(published_at:java photo_file_name:java page_count:java photo_updated_at:java price:java photo_content_type:java isbn:java created_at:java publisher_id:java blurb:java title:java photo_file_size:java updated_at:java) +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 2 results from AR: [#<Book id: 13, title: "程序员修炼之道 for java", publisher_id: 4, published_at: "2010-03-30 14:11:00", isbn: "124-123-145-5", blurb: "<p>《程序员修炼之道》由一系列独立的...", page_count: 333, price: 48.0, created_at: "2010-03-30 14:12:21", updated_at: "2010-03-31 18:21:53", photo_file_name: "BG.jpg", photo_content_type: "image/jpeg", photo_file_size: 4782, photo_updated_at: "2010-03-30 14:12:21">, #<Book id: 14, title: "原谅我红尘颠倒 java hero", publisher_id: 4, published_at: "2010-03-30 14:12:00", isbn: "124-123-145-6", blurb: "<h2><span style=\"font-size: large;\"><span style=\"fo...", page_count: 268, price: 25.0, created_at: "2010-03-30 14:13:52", updated_at: "2010-03-31 18:22:15", photo_file_name: "Socrates.png", photo_content_type: "image/png", photo_file_size: 62130, photo_updated_at: "2010-03-30 14:13:51">]
+Query: JAVA
+total hits: 2, results delivered: 2
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: 之
+-->+() +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: 之
+total hits: 0, results delivered: 0
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+index_for [Book(id: integer, title: string, publisher_id: integer, published_at: datetime, isbn: string, blurb: text, page_count: integer, price: float, created_at: datetime, updated_at: datetime, photo_file_name: string, photo_content_type: string, photo_file_size: integer, photo_updated_at: datetime)]
+options: {:limit=>nil, :offset=>nil}
+ar_options: {}
+[book] stored_fields: nil
+[book] query: 程序員
+-->+() +(class_name:Book)
+[book] now retrieving records from AR with options: {}
+[book] 0 results from AR: []
+Query: 程序員
+total hits: 0, results delivered: 0
