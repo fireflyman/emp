@@ -59,7 +59,151 @@ a.hover {
   list-style: square;
 }
 
-/* ?¤ù?¤p¦Z¹«?«ü?ªºý©¦¡ */
+/*¤ù?¤p¦Z¹«?«ü?ªºý©¦¡ */
 img.magplus {
     cursor: url(/images/magplus.gif), pointer;
 }
+
+/*menu list */
+#menu ul {
+  padding: 2px;
+  margin: 2px;
+  list-style: none;
+  border-top: 5px solid #B36B00;
+  border-bottom: 1px solid grey;
+}
+
+#menu ul li {
+  margin: 0px;
+  padding-left padding-right: 10px;
+  display: inline;
+}
+
+#menu a, #menu a:visited, #menu a:active {
+  font-weight: bold;
+  color: black;
+  font-size: 110%;
+  text-decoration:none;
+}
+
+#menu a:active {
+  background-color: grey;
+}
+
+#menu a:hover {
+  color: white;
+}
+
+#header{
+}
+
+#content {
+  padding-bottom: 15px;
+  border-bottom: 1px solid grey;
+}
+
+#logo {
+  font-size: 250%;
+}
+
+
+#footer {
+  width: 100%;
+  text-align: center;
+}
+
+#slogan {
+  position: relative;
+  font-size: 70%;
+  margin: 0px;
+  line-height: 0px;
+  top: -10px;
+  left: 80px;
+}
+
+/*pagination css*/
+
+.pagination {
+  padding: 3px;
+  margin: 3px;
+}
+
+.pagination a {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #aaaadd;
+  text-decoration: none;
+  color: #000099;
+}
+
+.pagination a:hover, .pagination a:active {
+  border: 1px solid #000099;
+  color: #000;
+}
+
+.pagination span.current {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #000099;
+  font-weight: bold;
+  background-color: #000099;
+  color: #FFF;
+}
+
+.pagination span.disabled {
+  padding: 2px 5px 2px 5px;
+  margin: 2px;
+  border: 1px solid #eee;
+  color: #ddd;
+}
+
+#shopping_cart {
+	 border-left: 3px solid #666;
+	 background: #aaa;
+	 position: fixed;
+	 bottom: 0;
+	 right: 0;
+	 width: 200px;
+	 height: 100%;
+	 padding: 5px 10px;
+	}
+	
+#shopping_cart ul,
+#shopping_cart li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+	
+#shopping_cart h3 {
+	 padding-top: 4em;
+	}
+	
+#cart_notice {
+	 border: 2px solid #58A986;
+	 background: #B2FFD3;
+	 padding: 3px;
+	 position: absolute;
+	 top: 0;
+	 left: 10px;
+	}
+	
+body {
+	background-color: #fff; color:#333;
+	margin-right: 230px;
+	}
+	
+#books {
+	 list-style: none;
+	 padding: 0;
+	 float: left;
+	}
+	
+#books .book {
+	 float: left;
+	 border: 4px solid #ccc;
+	 background-color: #fff;
+	 margin: 10px;
+	 padding: 5px;
+	 cursor: pointer;
+	}

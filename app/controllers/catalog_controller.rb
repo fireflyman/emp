@@ -1,4 +1,5 @@
 class CatalogController < ApplicationController
+  before_filter :initialize_cart
 
   def index
     @page_title = "Book List"
@@ -28,8 +29,13 @@ class CatalogController < ApplicationController
   end
  
 
-  def lastest
+  def latest
     @page_title = "Latest Books"
     @books = Book.latest
+  end
+  
+  def rss
+    latest
+    render :layout => false
   end
 end
