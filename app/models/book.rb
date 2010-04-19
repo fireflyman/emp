@@ -1,5 +1,5 @@
 class Book < ActiveRecord::Base
-  
+  acts_as_taggable
   has_many :cart_items
   has_many :carts, :through => :cart_items
   belongs_to :publisher
@@ -7,6 +7,11 @@ class Book < ActiveRecord::Base
                            :styles => { :small => "150*150>"}
   has_many :authors_books
   has_many :authors, :through => :authors_books  
+  
+  #has_many :books_tags
+  #has_many :tags, :through => :books_tags
+  
+ 
   acts_as_ferret 
   #acts_as_ferret :fields => [:title, :author_names]
   

@@ -1,0 +1,11 @@
+<% for tag in @tags %>
+    <%= link_to tag.name, :action => 'show', :id => tag.name %>
+<% end %>
+<p>
+<%= will_paginate @tags ,
+    :inner_window => 1,  
+    :outer_window => 1,  
+    :prev_label => 'Previous',  
+    :next_label => 'Next'
+    %>
+</p>

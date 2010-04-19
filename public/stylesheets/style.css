@@ -207,3 +207,42 @@ body {
 	 padding: 5px;
 	 cursor: pointer;
 	}
+	
+#tags_update {
+	 font-size: 75%;
+	 font-weight: normal;
+	 color: white;
+	 margin: 0px;
+	 padding: 0px;
+	 border: 1px solid black;
+	 background-color: #B36B00;
+	}
+	
+#tag_update li:hover{
+	 text-decoration: underline;
+	}
+	
+#recommended {
+	 border-left: 3px solid #666;
+	 background-color: white;
+	 position: fixed;
+	 bottom: 0;
+	 right: 0;
+	 width: 200px;
+	 height: 100%;
+	 padding: 5px 10px;
+	}
+	
+  .css1 { font-size: 1.0em; }
+  .css2 { font-size: 1.2em; }
+  .css3 { font-size: 1.4em; }
+  .css4 { font-size: 1.6em; }
+  
+  .tagCloud {
+	margin:10px;
+	font-size:40px;
+   }
+
+.tagCloud li {
+	display:inline;
+  }

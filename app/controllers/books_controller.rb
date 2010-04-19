@@ -3,9 +3,9 @@ class BooksController < ApplicationController
   # GET /books.xml
   
     uses_tiny_mce( :options => {
-      :theme => 'advanced',  # ¥Ö?
+      :theme => 'advanced',  # ¥Ö½§
       :language => 'zh',  # ¤¤¤å¬É­±
-      :convert_urls => false, # ¤£??¸ô?¡A§_?¦b´¡¤J?¤ù©Î‰`¹³?¡A‰N?¦¨¬Û?¸ô?¡A®e©ö?­P¸ô???¡C
+      :convert_urls => false, # ¤£Âà´«¸ô®|¡A§_«h¦b´¡¤J¹Ï¤ù©Î‰`¹³®É¡A‰NÂà¦¨¬Û¹ï¸ô®|¡A®e©ö¾É­P¸ô®|¿ù¶Ã
       :theme_advanced_toolbar_location => "top",  # ¤u¨ã˜ç¦b¤W­±
       :theme_advanced_toolbar_align => "left",
       :theme_advanced_resizing => true,  # ¦ü¥G¤£¦n¨Ï
@@ -16,7 +16,7 @@ class BooksController < ApplicationController
       :theme_advanced_buttons2 => %w{undo redo cut copy paste separator justifyleft justifycenter justifyright separator indent outdent separator bullist numlist separator link unlink image media emotions separator table separator fullscreen},
       :theme_advanced_buttons3 => [],
       # ¦rÊ^¦Cªí¤¤?¥Üªº¦rÊ^
-      :theme_advanced_fonts => %w{§ºÊ^=§ºÊ^;¶ÂÊ^=¶ÂÊ^;¥é§º=¥é§º;·¢Ê^=·¢Ê^;Ä?=Ä?;¥®?=¥®?;Andale Mono=andale mono,times;Arial=arial,helvetica,sans-serif;Arial Black=arial black,avant garde;Book Antiqua=book antiqua,palatino;Comic Sans MS=comic sans ms,sans-serif;Courier New=courier new,courier;Georgia=georgia,palatino;Helvetica=helvetica;Impact=impact,chicago;Symbol=symbol;Tahoma=tahoma,arial,helvetica,sans-serif;Terminal=terminal,monaco;Times New Roman=times new roman,times;Trebuchet MS=trebuchet ms,geneva;Verdana=verdana,geneva;Webdings=webdings;Wingdings=wingdings,zapf dingbats}, # ¦rÊ^
+      :theme_advanced_fonts => %w{§ºÊ^=§ºÊ^;¶ÂÊ^=¶ÂÊ^;¥é§º=¥é§º;·¢Ê^=·¢Ê^;Ä®Ñ=Ä®Ñ;¥®¶ê=¥®¶ê;Andale Mono=andale mono,times;Arial=arial,helvetica,sans-serif;Arial Black=arial black,avant garde;Book Antiqua=book antiqua,palatino;Comic Sans MS=comic sans ms,sans-serif;Courier New=courier new,courier;Georgia=georgia,palatino;Helvetica=helvetica;Impact=impact,chicago;Symbol=symbol;Tahoma=tahoma,arial,helvetica,sans-serif;Terminal=terminal,monaco;Times New Roman=times new roman,times;Trebuchet MS=trebuchet ms,geneva;Verdana=verdana,geneva;Webdings=webdings;Wingdings=wingdings,zapf dingbats}, # ¦rÊ^
       # :force_br_newlines => true, # ¦¹??üL¨î??¾¹?¬q¸¨²Å­(P)´À?¦¨?¦æ²Å(BR)¡C¤£«Ø?¥Î¡Gff¤U¤£¦n¨Ï¡A¥Î¤F¦¹??¦Z¡A™]¤J?®eªº©~¤¤¡B²M?©Î?­³£³Q¯}§¥¡C
       :plugins => %w{contextmenu paste media emotions table fullscreen inlinepopups}},
     :only => [:new, :edit, :show, :index, :create, :update])  # tiny_mce¦Ò?ªº«D±`?¤ß¡A?¨½¬O­­©w­þ¨Çaction¤¤°_¥Î
@@ -24,7 +24,12 @@ class BooksController < ApplicationController
   
   def index
     @page_title ='Listing books' 
+    #@book_tag_count = Book.tag_counts()
+    @book = Book.tag_counts()
+
     #@books = Book.find(:all)
+    #tag_cloud
+    #tag
     sort_by = params[:sort_by]
     @books =Book.paginate :page =>params[:page], 
                                      :order => sort_by, 
@@ -41,7 +46,8 @@ class BooksController < ApplicationController
   def show
     @book = Book.find(params[:id])
     @page_title = "#{@book.title}"
-
+    @books = Book.tag_counts()
+    # tag
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @book }
@@ -72,6 +78,7 @@ class BooksController < ApplicationController
   # POST /books.xml
   def create
     @book = Book.new(params[:book])
+    #@book.tag_list = params[:tags]
 
     respond_to do |format|
       if @book.save
@@ -91,6 +98,7 @@ class BooksController < ApplicationController
   def update
     
     @book = Book.find(params[:id])
+    #@book.tag_list = params[:tags]
 
     respond_to do |format|
       if @book.update_attributes(params[:book])
@@ -116,14 +124,36 @@ class BooksController < ApplicationController
       format.xml  { head :ok }
     end
   end
+
   
+#tag method
+=begin
+   def tag_cloud
+        @tags = Book.tag_counts
+   end
+
+   def tag
+       @books= Book.find_tagged_with(params[:id])
+     end
+=end
+     def show_tag
+       @books = Book.find_tagged_with(params[:id])
+       @book = Book.tag_counts()
+      render :template => "books/show"
+      
+      #render :template => "catalog/index"
+end
+
   private
   
   def load_data
     @authors = Author.find(:all)
     @publishers = Publisher.find(:all)
+    #@tags = Tag.find(:all)
   end
   
+
+   
 
   
   

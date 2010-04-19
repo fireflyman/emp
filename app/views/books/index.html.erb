@@ -3,6 +3,7 @@
   <tr>
     <th><a href="?sort_by=title">Title</a></th>
     <th><a href="?sort_by=publisher_id">Publisher</a></th>
+    <th>Tags</th>
     <th><a href="?sort_by=isbn">Isbn</a></th>
     <th colspan="3"></th>
   </tr>
@@ -11,6 +12,9 @@
   <tr>
     <td><%=h book.title %></td>
     <td><%=h book.publisher.name %></td>
+    <td><%= book.tags %></td>
+
+  
     <td><%=h book.isbn %></td> 
     <td><%= link_to 'Show', book %> |
     <%= link_to 'Edit', edit_book_path(book) %> |
@@ -29,3 +33,13 @@
     %>
 <br />
 <%= link_to 'Add anthorer new book', new_book_path %>
+
+<br/>
+<ol class="tagCloud">
+<% tag_cloud(@book.sort_by {|t| t.name}) do |tag, size| %>
+<li><%= link_to h("#{tag.name}"), { :action => "show_tag/#{tag.name}" }, 
+{ :style => "font-size:#{size}%"}%></li>
+<% end %>
+</ol>
+
+

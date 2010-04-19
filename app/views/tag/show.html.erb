@@ -1,0 +1,5 @@
+<% for book in @books %>
+  <%= link_to book.title, :controller => 'catalog', :action => 'show' ,
+  :id => book %><br/>
+<% end %>
+<p><%= link_to "Back", :action => "index" %></p>
