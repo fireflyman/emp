@@ -2672,3 +2672,157 @@ using index in C:/RBOR/emp/index/development/book
 [book] refusing re-registration of class Book
 [book] register class Book with index book
 [book] refusing re-registration of class Book
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:published_at, :price, :photo_content_type, :title, :isbn, :publisher_id, :page_count, :updated_at, :blurb, :photo_file_size, :photo_file_name, :created_at, :photo_updated_at]
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:photo_content_type, :isbn, :publisher_id, :title, :page_count, :updated_at, :blurb, :photo_file_size, :published_at, :photo_file_name, :photo_updated_at, :price, :created_at]
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:photo_content_type, :isbn, :title, :publisher_id, :page_count, :updated_at, :blurb, :photo_file_size, :price, :photo_file_name, :created_at, :published_at, :photo_updated_at]
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:photo_content_type, :publisher_id, :price, :title, :page_count, :updated_at, :blurb, :photo_file_size, :published_at, :photo_file_name, :photo_updated_at, :isbn, :created_at]
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:photo_content_type, :publisher_id, :price, :title, :page_count, :updated_at, :blurb, :photo_file_size, :published_at, :photo_file_name, :photo_updated_at, :isbn, :created_at]
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+Will use local index.
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:publisher_id, :blurb, :title, :page_count, :photo_file_size, :updated_at, :price, :photo_file_name, :photo_updated_at, :published_at, :photo_content_type, :created_at, :isbn]
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+Will use local index.
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:published_at, :photo_file_name, :price, :title, :photo_updated_at, :page_count, :updated_at, :isbn, :photo_content_type, :publisher_id, :blurb, :created_at, :photo_file_size]
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:blurb, :published_at, :photo_file_size, :price, :title, :page_count, :photo_file_name, :updated_at, :isbn, :photo_updated_at, :photo_content_type, :publisher_id, :created_at]
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:blurb, :published_at, :photo_file_size, :price, :title, :page_count, :photo_file_name, :updated_at, :isbn, :photo_updated_at, :photo_content_type, :publisher_id, :created_at]
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:blurb, :published_at, :photo_file_size, :price, :title, :page_count, :photo_file_name, :updated_at, :isbn, :photo_updated_at, :photo_content_type, :publisher_id, :created_at]
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+Will use local index.
+Will use local index.
+Will use local index.
+using index in C:/RBOR/emp/index/development/book
+[book] register class Book with index book
+[book] default field list for index book: [:isbn, :publisher_id, :title, :blurb, :page_count, :updated_at, :price, :photo_file_size, :photo_file_name, :photo_updated_at, :published_at, :created_at, :photo_content_type]
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book
+[book] register class Book with index book
+[book] refusing re-registration of class Book

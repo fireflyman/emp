@@ -1,0 +1,32 @@
+<h1>Editing order</h1>
+
+<%= error_messages_for :order %>
+
+<% form_for(@order) do |f| %>
+  <p>
+    <b>Name</b><br />
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <b>Address</b><br />
+    <%= f.text_area :address %>
+  </p>
+
+  <p>
+    <b>Email</b><br />
+    <%= f.text_field :email %>
+  </p>
+
+  <p>
+    <b>Pay type</b><br />
+    <%= f.text_field :pay_type %>
+  </p>
+
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @order %> |
+<%= link_to 'Back', orders_path %>

@@ -18,6 +18,9 @@ class CartController < ApplicationController
    end
   end
   
+  
+ 
+   
   def remove
    @book = Book.find(params[:id])
    if request.xhr?
@@ -47,5 +50,7 @@ class CartController < ApplicationController
       render
    end
   end
-  
+
+
+
 end

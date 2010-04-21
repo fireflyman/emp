@@ -38,4 +38,34 @@ class CatalogController < ApplicationController
     latest
     render :layout => false
   end
+  
+   def checkout
+   #@cart = find_cart
+       @order = Order.new
+     end
+     
+   def save_order
+    # @cart = find_cart
+     @order = Order.new(params[:order])
+    # @order.add_line_items_from_cart(@cart)
+   if @order.save
+       session[:cart] = nil
+       redirect_to_index("Thank you for your order")
+   else
+       render :action => 'checkout'
+   end
+  
+ end
+
+private
+  
+  def find_cart
+    @cart=(session[:cart]  ||= Cart.new)
+  end
+  
+  def redirect_to_index(msg = nil)
+      flash[:notice] = msg if msg
+      redirect_to :action => 'index'
+    end
+    
 end

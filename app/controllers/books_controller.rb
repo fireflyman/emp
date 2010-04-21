@@ -1,7 +1,7 @@
 class BooksController < ApplicationController
   # GET /books
   # GET /books.xml
-  
+  before_filter :authorize, :expect => :login
     uses_tiny_mce( :options => {
       :theme => 'advanced',  # 皮膚
       :language => 'zh',  # 中文界面

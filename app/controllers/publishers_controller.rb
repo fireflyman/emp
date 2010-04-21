@@ -1,6 +1,7 @@
 class PublishersController < ApplicationController
   # GET /publishers
   # GET /publishers.xml
+    before_filter :authorize, :expect => :login
   def index
     @publishers = Publisher.find(:all)
 

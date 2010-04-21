@@ -1,4 +1,10 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :line_items
+
+  map.resources :orders
+
+  map.resources :users
+
   map.resources :books
   map.resources :authors
   map.resources :publishers

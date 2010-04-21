@@ -11,7 +11,19 @@
  <div id="header">
   <h1 id="logo">Emporium&trade;</h1>
   <h2 id="slogan">Books on Rails</h2>
+  <p id="loginlogout">
+    <% if session[:user_id] %>
+      
+     <br />
+       <%= link_to 'Orders', :controller => 'orders' %><br />
+       <%= link_to 'Books', :controller => 'books' %><br />
+       <%= link_to 'Users', :controller => 'users' %><br />
+    <br />
+       <%= link_to 'Logout', :controller => 'admin', :action => 'logout' %>
+   <% end %>
   
+  
+  </p>
 </div>
     
 <div id="menu">
@@ -20,7 +32,6 @@
     <li><a href="/publishers">Publishers</a>&nbsp;|&nbsp;</li>
     <li><a href="/books">Books</a>&nbsp;|&nbsp;</li>
     <li><a href="/catalog">Catalog</a>&nbsp;|&nbsp;</li>
-    <li><a href="/forum">Forum</a>&nbsp;|&nbsp;</li>
     <li><a href="/tag/index">Tag</a>&nbsp;|&nbsp;</li>
     <li><a href="/about">About</a>&nbsp;</li>
   </ul>
