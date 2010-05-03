@@ -124,7 +124,7 @@ class BooksController < ApplicationController
       format.xml  { head :ok }
     end
   end
-
+  
   
 #tag method
 =begin
@@ -136,14 +136,45 @@ class BooksController < ApplicationController
        @books= Book.find_tagged_with(params[:id])
      end
 =end
-     def show_tag
+     def tag
        @books = Book.find_tagged_with(params[:id])
-       @book = Book.tag_counts()
-      render :template => "books/show"
+     end
+     
+     def show_tag
+       #@books = Book.find_tagged_with(params[:id])
+       @tags = Book.tag_counts
+       #@book = Book.tag_counts
+      #render :template => "books/show"
       
       #render :template => "catalog/index"
-end
+     end
+  
+  def add_tag
+    @lemma.tag_list.add params[:tag]
+    @lemma.save_tags
+    id = dom_id(@lemma) + "_tags"
+    render :update do |page|
+      page.replace_html id, tag_cloud(@lemma.tag_counts)
+      page << %{
+         new Effect.Highlight('#{id}',{startcolor:'#80FF00',duration: 3.0 });
+      }
+    end
+  end
+ 
+  def remove_tag
+    @lemma.tag_list.remove params[:tag]
+    @lemma.save_tags
+    id = dom_id(@lemma) + "_tags"
+    render :update do |page|
+      page.replace_html id, tag_cloud(@lemma.tag_counts)
+      page << %{
+         new Effect.Highlight('#{id}',{startcolor:'#80FF00',duration: 3.0 });
+      }
+    end
+  end
 
+
+ 
   private
   
   def load_data

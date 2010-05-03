@@ -12,13 +12,13 @@
   <tr>
     <td><%=h book.title %></td>
     <td><%=h book.publisher.name %></td>
-    <td><%= book.tags %></td>
+    <td><%= book.tag_list.to_s %></td>
 
   
     <td><%=h book.isbn %></td> 
-    <td><%= link_to 'Show', book %> |
-    <%= link_to 'Edit', edit_book_path(book) %> |
-    <%= link_to 'Destroy', book, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= link_to  "<img src='/images/lookat.gif', border='0', alt='查看' />", book %> 
+    <%= link_to "<img src='/images/icon_edit.gif', border='0', alt='編輯'>", edit_book_path(book) %>
+    <%= link_to "<img src='/images/close.gif',border='0', alt='刪除'>", book, :confirm => "Are you sure you want to delete <#{book.title}>", :method => :delete %></td>
   </tr>
 <% end %>
 </table>
@@ -32,12 +32,12 @@
     :next_label => 'Next'
     %>
 <br />
-<%= link_to 'Add anthorer new book', new_book_path %>
+<%= link_to "<img src='/images/newb.gif', border='0', alt = ‘新增圖書’>", new_book_path %>
 
 <br/>
 <ol class="tagCloud">
 <% tag_cloud(@book.sort_by {|t| t.name}) do |tag, size| %>
-<li><%= link_to h("#{tag.name}"), { :action => "show_tag/#{tag.name}" }, 
+<li><%= link_to h("#{tag.name}"), { :controller => 'tag',:action => 'show', :id => tag.name }, 
 { :style => "font-size:#{size}%"}%></li>
 <% end %>
 </ol>

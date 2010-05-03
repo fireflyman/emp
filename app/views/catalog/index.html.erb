@@ -1,6 +1,6 @@
-<P><%= link_to "Search", :action => "search" %></p>
-<P><%= link_to "RSS", :action => "rss" %></p>
-
+<P><%= link_to "<img src='/images/search.gif', border='0', alt='·ÅÆ¨'>", :action => "search" %>
+<%= link_to "<img src='/images/rss.png', border='0', alt='rss'>", :action => "rss" %></p>
+<%= render :partial => "search_box" %>
 
 <%= render :partial => "books" %>
 

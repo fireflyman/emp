@@ -1,6 +1,6 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
-include TagHelper  
+include TagsHelper  
  def add_book_link(text, book)
     link_to_remote text, {:url => {:controller => "cart",
               :action => "add", :id => book}},
@@ -30,6 +30,7 @@ include TagHelper
    #@tags = Book.tag_counts[0,20]
    #@tags = Book.tag_counts[0,20]
  #end
+
 def tag_cloud(tag_counts)
   ceiling = Math.log(tag_counts.max { |a,b| a.count <=> b.count }.count)
   floor = Math.log(tag_counts.min { |a,b| a.count <=> b.count }.count)
